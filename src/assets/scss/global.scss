@@ -1,9 +1,9 @@
-$white-clr: #fff;
+$color-white: #fff;
 $secondary-white: #fafafa;
-$crimson-clr: #DB4444;
-$bg-clr:#000;
-$green-clr:#00FF66;
-$yellow-clr:#EEFF61;
+$color-crimson: #DB4444;
+$color-dark:#000;
+$color-green:#00FF66;
+$color-yellow:#EEFF61;
 
 /* width */
 ::-webkit-scrollbar {
@@ -48,8 +48,8 @@ $yellow-clr:#EEFF61;
     padding: 0 15px;
 }
 .pop-14-21-400{
-    @include font(14, 21, 400, red);
+    @include font(14, 21, 400, $secondary-white);
 }
 .pop-16-24-400{
-    @include font(16, 24, 400, red);
+    @include font(16, 24, 400, $color-darked);
 }
