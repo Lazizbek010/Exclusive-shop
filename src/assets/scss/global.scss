@@ -1,6 +1,7 @@
-:root{
+$white-clr: #fff;
+$secondary-white: #fafafa;
+$crimson-clr: #DB4444;
 
-}
 /* width */
 ::-webkit-scrollbar {
     width: 7px;
@@ -42,4 +43,7 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+}
+.pop-14-21-400{
+    @include font(14, 21, 400, red);
 }
