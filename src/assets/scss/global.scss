@@ -1,81 +1,81 @@
-
-/* Primary color */
-$primary: #fff;
-$primary1: #363738;
-/* Secondary color*/
-$secondary: #F5F5F5;
-$secondary1: #FEFAF1;
-$secondary2: #DB4444;
-/* Text color*/
-$text: #FAFAFA;
-$text1: #7D8184;
-$dark-color: #000000;
-$btn-color: #00FF66;
-$btn-hover: #E07575;
-$btn-hover2: #A0BCE0;
-$rgb-color: rgba(0, 0, 0, 0.3);
-$shadow-color: 0px 2px 10px 2px rgba(0, 0, 0, 0.2);
-$shadow-color2: 0px 1px 13px rgba(0, 0, 0, 0.05);
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
     font-style: normal;
+    font-family: 'Poppins', sans-serif;
     border: none;
     outline: none;
 }
 
-*::selection{
+*::selection {
     background: #DB4444;
     color: black;
 }
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
+.btn {
+    background: $btn-color;
+    border-radius: 4px;
+    padding: 16px 48px;
+    @include font(16, 24, 500, $text-color)
+}
+
 .pop-14-21-400 {
-    @include font(14, 21, 400, $secondary-white);
+    @include font(14, 21, 400, $text-color);
 }
 
 .pop-16-24-400 {
-    @include font(16, 24, 400, $color-dark);
-}
-.pop-16-24-400-secondary-white {
-    @include font(16, 24, 400, $secondary-white);
-}
-.pop-16-24-500{
-    @include font(16, 24, 500, $secondary-white);
-}
-.pop-16-20-600{
-    @include font(16, 24, 600, $secondary-red);
-}
-.pop-12-18-400{
-    @include font(12, 18, 400, $color-dark);
-}
-.pop-36-48-600{
-    @include font(36, 48, 600, $color-dark)
-}
-.pop-12-18-500{
-    @include font(12, 18, 700, $color-dark)
-}
-.pop-16-24-500{
-    @include font(16, 24, 500, $color-dark)
-}
-.pop-16-24-500{
-    @include font(16, 24, 500, $secondary-red)
-}
-.inter-32-30-700{
-    @include font(32, 30, 700, $color-dark)
-}
-.inter-48-60-600{
-    @include font(48, 60, 600, $secondary-white)
-}
-.inter-24-24-700{
-    @include font(24, 24, 700, $color-dark)
+    @include font(16, 24, 400, $dark-color);
 }
 
+.pop-16-24-400-secondary-white {
+    @include font(16, 24, 400, $text-color);
+}
+
+.pop-16-24-500 {
+    @include font(16, 24, 500, $text-color);
+}
+
+.pop-16-20-600 {
+    @include font(16, 24, 600, $secondary2-color);
+}
+
+.pop-12-18-400 {
+    @include font(12, 18, 400, $dark-color);
+}
+
+.pop-36-48-600 {
+    @include font(36, 48, 600, $dark-color)
+}
+
+.pop-12-18-500 {
+    @include font(12, 18, 700, $dark-color)
+}
+
+.pop-16-24-500 {
+    @include font(16, 24, 500, $dark-color)
+}
+
+.pop-16-24-500 {
+    @include font(16, 24, 500, $secondary2-color)
+}
+
+.inter-32-30-700 {
+    @include font(32, 30, 700, $dark-color)
+}
+
+.inter-48-60-600 {
+    @include font(48, 60, 600, $text-color)
+}
+
+.inter-24-24-700 {
+    @include font(24, 24, 700, $dark-color)
+}

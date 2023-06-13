@@ -4,6 +4,7 @@
   </div>
 </template>
 
+
 <script>
 import MainEnd from './components/main_end.vue'
 import HomeView from './views/HomeView.vue'
@@ -18,9 +19,8 @@ export default{
     HomeView
   }
 }
+<script setup>
+import MainEnd from './components/main_end.vue';
 
 </script>
 
-<style lang="scss" scoped>
-
-</style>
