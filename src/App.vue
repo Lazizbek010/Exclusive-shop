@@ -7,21 +7,8 @@
   </div>
 </template>
 
-<script>
-import MainEnd from './components/main_end.vue'
-export default{
-  data() {
-    return {
-      
-    }
-  },
-  components:{
-    MainEnd
-  }
-}
+<script setup>
+import MainEnd from './components/main_end.vue';
 
 </script>
 
-<style lang="scss" scoped>
-
-</style>
