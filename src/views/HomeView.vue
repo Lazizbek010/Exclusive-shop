@@ -87,6 +87,7 @@
           </div>
         </div>
       </section>
+      <MainEnd />
     </main>
     <footer></footer>
 
@@ -95,6 +96,8 @@
 
 <script setup>
 import SectionTop from '../components/SectionTop.vue';
+import MainEnd from '../components/MainEnd.vue';
+
 
 </script>
 
