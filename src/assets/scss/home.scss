@@ -1,86 +1,82 @@
-.main-left__child{
-    h1{
+
+.main-left__child {
+    h1 {
         color: #00FF66;
     }
 }
-.arrival-content__bottom{
+
+.arrival-content__bottom {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    .arrival-bottom__left{
+
+    .arrival-bottom__left {
         position: relative;
         width: 570px;
         height: 600px;
         background: #000;
-        .arrival-bottom__img{
+
+        .arrival-bottom__img {
             position: absolute;
             bottom: 0;
         }
-        .arrival-bottom__text{
+
+        .arrival-bottom__text {
             width: 242px;
             position: absolute;
             left: 20px;
             top: 420px;
-            .arrival-bottom__h3{
+
+            .arrival-bottom__h3 {
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 600;
                 font-size: 24px;
                 line-height: 24px;
                 /* identical to box height, or 100% */
-                
+
                 letter-spacing: 0.03em;
-                
+
                 /* Text */
-                
+
                 color: #FAFAFA;
             }
-            .arrival-bottom__p{
+
+            .arrival-bottom__p {
                 font-family: 'Poppins';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 14px;
                 line-height: 21px;
                 /* or 150% */
-                
-                
+
+
                 /* Text */
-                
+
                 color: #FAFAFA;
             }
-            .arrival-bottom__a{
+
+            .arrival-bottom__a {
                 font-family: 'Poppins';
                 font-style: normal;
                 font-weight: 500;
                 font-size: 16px;
                 line-height: 24px;
                 /* identical to box height, or 150% */
-                
-                
+
+
                 color: #FFFFFF;
             }
         }
     }
-    .arrival-bottom__right{
+
+    .arrival-bottom__right {
         display: grid;
-        
+
     }
 }
 
-.card{
+.card {
     width: 100px;
     height: 100px;
     background-color: red;
 }
-.top-header{
-    background: $dark-color;
-    padding: 15px 0;
-    &__info{
-        display: flex;
-        align-items: center;
-        gap: 8px;
-    }
-}
-
-
-
-
