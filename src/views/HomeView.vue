@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <HeaderComponent />
     <main>
       <main class="main-categories__parent">
         <div class="main-left__child">
@@ -60,12 +59,11 @@
       </section>
       <MainEnd />
     </main>
-    <footer></footer>
   </div>
 </template>
 
 <script setup>
-import HeaderComponent from "../components/HeaderComponent.vue";
+
 import SectionTop from "../components/SectionTop.vue";
 import MainEnd from "../components/MainEnd.vue";
 </script>

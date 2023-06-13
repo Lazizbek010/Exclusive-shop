@@ -30,10 +30,10 @@
             <div class="nav__logo inter-24-24-700">Exclusive</div>
             <ul class="nav__list">
                 <li>
-                    <a href="#" class="active">Home</a>
+                    <router-link :to="{name: 'home'}" class="active">Home</router-link>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <router-link :to="{name: 'contact'}">Contact</router-link>
                 </li>
                 <li>
                     <a href="#">About</a>
