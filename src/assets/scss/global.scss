@@ -4,6 +4,7 @@ $color-crimson: #DB4444;
 $color-dark: #000;
 $color-green: #00FF66;
 $color-yellow: #EEFF61;
+$secondary-red: #DB4444;
 
 * {
     margin: 0;
@@ -31,5 +32,39 @@ $color-yellow: #EEFF61;
 }
 
 .pop-16-24-400 {
-    @include font(16, 24, 400, $color-darked);
+    @include font(16, 24, 400, $color-dark);
 }
+.pop-16-24-400-secondary-white {
+    @include font(16, 24, 400, $secondary-white);
+}
+.pop-16-24-500{
+    @include font(16, 24, 500, $secondary-white);
+}
+.pop-16-20-600{
+    @include font(16, 24, 600, $secondary-red);
+}
+.pop-12-18-400{
+    @include font(12, 18, 400, $color-dark);
+}
+.pop-36-48-600{
+    @include font(36, 48, 600, $color-dark)
+}
+.pop-12-18-500{
+    @include font(12, 18, 700, $color-dark)
+}
+.pop-16-24-500{
+    @include font(16, 24, 500, $color-dark)
+}
+.pop-16-24-500{
+    @include font(16, 24, 500, $secondary-red)
+}
+.inter-32-30-700{
+    @include font(32, 30, 700, $color-dark)
+}
+.inter-48-60-600{
+    @include font(48, 60, 600, $secondary-white)
+}
+.inter-24-24-700{
+    @include font(24, 24, 700, $color-dark)
+}
+
