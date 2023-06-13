@@ -57,7 +57,7 @@
           </div>
         </div>
       </section>
-      <MainEnd />
+      <ServicesComponent />
     </main>
   </div>
 </template>
@@ -65,7 +65,7 @@
 <script setup>
 
 import SectionTop from "../components/SectionTop.vue";
-import MainEnd from "../components/MainEnd.vue";
+import ServicesComponent from "../components/ServiceComponent.vue";
 </script>
 
 

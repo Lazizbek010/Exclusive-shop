@@ -1,6 +1,6 @@
 <template>
     <div class="contact">
-        Salom
+        <h1>Contact Page</h1>
     </div>
 </template>
 
