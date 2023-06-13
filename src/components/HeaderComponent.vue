@@ -44,7 +44,7 @@
             </ul>
             <div class="nav__menu">
                 <div class="nav__menu-search">
-                    <input class="pop-12-18-400" type="search" name="search" id="search" placeholder="What are you looking for?">
+                    <input class="pop-12-18-400" type="search" name="search" id="search" placeholder="What are you looking for?" autocomplete="off">
                     <img src="../assets/images/svg/search-icon.svg" alt="">
                 </div>
                 <div class="nav__menu-icon">
