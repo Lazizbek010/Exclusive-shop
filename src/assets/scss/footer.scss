@@ -1,0 +1,13 @@
+.footer{
+    background: $dark-color;
+    &__bottom{
+        padding: 16px 0 24px;
+        border-top: 1px solid rgba(255, 255, 255, .4);
+
+        p{
+            text-align: center;
+            opacity: .4;
+            color: $primary-color;
+        }
+    }
+}

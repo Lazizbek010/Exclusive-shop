@@ -1,26 +1,13 @@
 <template>
   <div class="app">
+    <HeaderComponent />
     <router-view />
+    <FooterComponent />
   </div>
 </template>
 
-<script>
-import MainEnd from './components/main_end.vue'
-import HomeView from './views/HomeView.vue'
-export default{
-  data() {
-    return {
-      
-    }
-  },
-  components:{
-    MainEnd,
-    HomeView
-  }
-}
 
+<script setup>
+import HeaderComponent from "./components/HeaderComponent.vue";
+import FooterComponent from "./components/FooterComponent.vue";
 </script>
-
-<style lang="scss" scoped>
-
-</style>
