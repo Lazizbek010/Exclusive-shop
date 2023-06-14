@@ -4,6 +4,9 @@
       <main class="main-categories__parent">
         <div class="main-left__child">
           <h1>Categories</h1>
+          <p>Enhance Your
+             Music Experience</p>
+             <div class="hours-items">
           <p>Enhance Your Music Experience</p>
           <!-- <div class="hours-items">
               <span>23 
@@ -21,7 +24,7 @@
                   <br>
                   <button>Buy Now!</button>
                 
-             </div> -->
+             </div>
         </div>
         <div class="main-right__child">
           <img src="../assets/images/png/kalonka.png" alt="" />
