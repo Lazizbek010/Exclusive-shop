@@ -1,35 +1,26 @@
 <template>
   <div class="home">
-    <main>
-      <main class="main-categories__parent">
-        <div class="main-left__child">
-          <h1>Categories</h1>
-          <p>Enhance Your
-             Music Experience</p>
-             <div class="hours-items">
-          <p>Enhance Your Music Experience</p>
-          <!-- <div class="hours-items">
-              <span>23 
-                <br>Hours</span>
-                <br>
-               <span>05 
-                <br>Days
-               </span>
-               <br>
-               <span>59
-                <br>Minutes </span>
-                <br>
-                <span>35
-                  <br>Seconds </span>
-                  <br>
-                  <button>Buy Now!</button>
-                
-             </div>
+    <main class="main-categories__parent">
+      <div class="main-left__child">
+        <h1>Categories</h1>
+        <p>Enhance Your Music Experience</p>
+        <p>Enhance Your Music Experience</p>
+        <div class="hours-items">
+          <span>23 <br />Hours</span>
+          <br />
+          <span>05 <br />Days </span>
+          <br />
+          <span>59 <br />Minutes </span>
+          <br />
+          <span>35 <br />Seconds </span>
+          <br />
+          <button>Buy Now!</button>
         </div>
-        <div class="main-right__child">
-          <img src="../assets/images/png/kalonka.png" alt="" />
-        </div>
-      </main>
+      </div>
+      <div class="main-right__child">
+        <img src="../assets/images/png/kalonka.png" alt="" />
+      </div>
+
       <section id="arrival">
         <div class="container">
           <div class="arrival__content">
@@ -60,13 +51,13 @@
           </div>
         </div>
       </section>
+
       <ServicesComponent />
     </main>
   </div>
 </template>
 
 <script setup>
-
 import SectionTop from "../components/SectionTop.vue";
 import ServicesComponent from "../components/ServiceComponent.vue";
 </script>
