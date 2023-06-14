@@ -1,5 +1,16 @@
 .footer{
     background: $dark-color;
+    color: $text-color;
+
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        padding: 80px 0 60px;
+    }
+    &__logo{
+        color: $text-color;
+        margin-bottom: 24px;
+    }
     &__bottom{
         padding: 16px 0 24px;
         border-top: 1px solid rgba(255, 255, 255, .4);
