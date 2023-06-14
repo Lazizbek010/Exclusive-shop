@@ -6,7 +6,7 @@
           <h1>Categories</h1>
           <p>Enhance Your
              Music Experience</p>
-             <!-- <div class="hours-items">
+             <div class="hours-items">
               <span>23 
                 <br>Hours</span>
                 <br>
@@ -22,7 +22,7 @@
                   <br>
                   <button>Buy Now!</button>
                 
-             </div> -->
+             </div>
         </div>
         <div class="main-right__child">
           <img src="../assets/images/png/kalonka.png" alt="">

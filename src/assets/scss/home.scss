@@ -1,5 +1,38 @@
-.main-left__child{
-    h1{
-        color: #00FF66;
+.main-categories__parent {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 4fr);
+    background: #000000;
+
+    .main-left__child {
+        h1 {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            color: #00FF66;
+
+        }
+
+        p {
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 60px;
+            letter-spacing: 0.04em;
+            color: #ffff;
+        }
     }
+
+
+
+
+}
+
+.main-right__child {
+    img {
+        background: #D9D9D9;
+        filter: blur(100px);
+    }
+
+
 }
