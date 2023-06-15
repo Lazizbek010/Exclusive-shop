@@ -3,242 +3,91 @@
         color: #00FF66;
     }
 }
-.arrival__content{
-    display: grid;
-    row-gap: 30px;
-    position: relative;
-}
 .arrival-content__bottom{
-    
+    margin-top: 60px;
     display: grid;
-    grid-template-areas:
+    grid-template-areas: 
     "a a b b"
     "a a c d";
-    row-gap: 30px;
+    row-gap: 32px;
     column-gap: 30px;
-    .card1{
-        background-color: #0D0D0D;
-        grid-area: b;
-        position: relative;
-        img{
-            height: 233px;
-            position: absolute;
-            right: 0;
-        }
-        .text{
-            display: grid;
-            row-gap: 5px;
-            width: 255px;
-            color: white;
-            position: absolute;
-            top: 120px;
-            left: 15px;
-            h1{
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 24px;
-                line-height: 24px;
-                /* identical to box height, or 100% */
-                
-                letter-spacing: 0.03em;
-                
-                /* Text */
-                
-                color: #FAFAFA;
-            }
-            p{
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 14px;
-                line-height: 21px;
-                /* identical to box height, or 150% */
-                
-                
-                /* Text */
-                
-                color: #FAFAFA;
-            }
-            a{
-                width: 90px;
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 24px;
-                /* identical to box height, or 150% */
-                color: #FAFAFA;
-                border-bottom: 1px solid #FAFAFA;
-            }
-        }
-    }
-    .card2{
-        background-color: #000;
-        grid-area: c;
-        position: relative;
-        img{
-            position: absolute;
-            top: 40px;
-            left: 30px;
-        }
-        .text{
-            display: grid;
-            row-gap: 5px;
-            color: white;
-            transform: translateY(210px) translateX(20px);
-            h1{
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 24px;
-                line-height: 24px;
-                /* identical to box height, or 100% */
-                
-                letter-spacing: 0.03em;
-                
-                /* Text */
-                
-                color: #FAFAFA;
-            }
-            p{
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 14px;
-                line-height: 21px;
-                /* identical to box height, or 150% */
-                
-                
-                /* Text */
-                
-                color: #FAFAFA;
-            }
-            a{
-                width: 90px;
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 24px;
-                /* identical to box height, or 150% */
-                color: #FAFAFA;
-                border-bottom: 1px solid #FAFAFA;
-            }
-        }
-        
-    }
-    .card3{
-        background-color: #000;
-        grid-area: d;
-        position: relative;
-        img{
-            position: absolute;
-            top: 40px;
-            left: 30px;
-        }
-        .text{
-            display: grid;
-            row-gap: 5px;
-            color: white;
-            transform: translateY(210px) translateX(20px);
-            h1{
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 24px;
-                line-height: 24px;
-                /* identical to box height, or 100% */
-                
-                letter-spacing: 0.03em;
-                
-                /* Text */
-                
-                color: #FAFAFA;
-            }
-            p{
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 14px;
-                line-height: 21px;
-                /* identical to box height, or 150% */
-                
-                
-                /* Text */
-                
-                color: #FAFAFA;
-            }
-            a{
-                width: 90px;
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 24px;
-                /* identical to box height, or 150% */
-                color: #FAFAFA;
-                border-bottom: 1px solid #FAFAFA;
-            }
-        }
-    }
-    .arrival-bottom__left{
-        grid-area: a;
-        position: relative;
+    .bottom__card1{
         width: 570px;
         height: 600px;
-        background: #000;
-        .arrival-bottom__img{
-            position: absolute;
-            bottom: 0;
+        grid-area: a;
+        background-color: black;
+        img{
+            transform: translateY(89px) translateX(30px);
         }
-        .arrival-bottom__text{
+        .text{
             width: 242px;
-            position: absolute;
-            left: 20px;
-            top: 440px;
+            transform: translateY(-50px) translateX(30px);
             display: grid;
-            row-gap: 16px;
-            .arrival-bottom__h3{
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 24px;
-                line-height: 24px;
-                /* identical to box height, or 100% */
-                
-                letter-spacing: 0.03em;
-                
-                /* Text */
-                
-                color: #FAFAFA;
-            }
-            .arrival-bottom__p{
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 14px;
-                line-height: 21px;
-                /* or 150% */
-                
-                /* Text */
-                color: #FAFAFA;
-            }
-            .arrival-bottom__a{
+            row-gap: 5px;
+            color: white;
+            a{
                 width: 90px;
-                border-bottom: 1px solid #FAFAFA;
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 24px;
-                /* identical to box height, or 150% */
-                color: #FFFFFF;
+                border-bottom: 1px solid $text-color;
             }
         }
     }
-    .arrival-bottom__right{
-        display: grid;
+    .bottom__card2{
+        width: 570px;
+        height: 284px;
+        background-color: #0D0D0D;
+        grid-area: b;
+        img{
+            height: inherit;
+            transform: translateX(135px);
+        }
+        .text{
+            width: 259px;
+            transform: translateY(-140px) translateX(30px);
+            display: grid;
+            row-gap: 10px;
+            a{
+                width: 90px;
+                border-bottom: 1px solid $text-color;
+            }
+        }
+    }
+    .bottom__card3{
+        width: 270px;
+        height: 284px;
+        background-color: #282828;
+        grid-area: c;
+        img{
+            transform: translateY(50px) translateX(30px);
+        }
+        .text{
+            width: 191px;
+            transform: translateY(-40px) translateX(30px);
+            display: grid;
+            row-gap: 5px;
+            a{
+                width: 90px;
+                border-bottom: 1px solid $text-color;
+            }
+        }
+    }
+    .bottom__card4{
+        width: 270px;
+        height: 284px;
+        background-color: #282828;
+        grid-area: d;
+        img{
+            transform: translateY(50px) translateX(30px);
+        }
+        .text{
+            width: 191px;
+            transform: translateY(-30px) translateX(30px);
+            display: grid;
+            row-gap: 5px;
+            a{
+                width: 90px;
+                border-bottom: 1px solid $text-color;
+            }
+        }
     }
 }
 

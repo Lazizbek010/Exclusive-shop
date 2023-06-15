@@ -62,36 +62,36 @@
               <SectionTop />
             </div>
             <div class="arrival-content__bottom">
-              <div class="arrival-bottom__left">
-                <img class="arrival-bottom__img" src="../assets/images/png/Play-station.png" alt="">
-                <div class="arrival-bottom__text">
-                  <h3 class="arrival-bottom__h3">PlayStation 5</h3>
-                  <p class="arrival-bottom__p">Black and White version of the PS5 coming out on sale.</p>
-                  <a href="#" class="arrival-bottom__a">Shop Now</a>
+              <div class="arrival-bottom__card bottom__card1">
+                <img src="../assets/images/png/Play-station.png" alt="">
+                <div class="text">
+                  <h3 class="inter-24-24-600">PlayStation 5</h3>
+                  <p class="pop-14-21-400">Black and White version of the PS5 coming out on sale.</p>
+                  <a href="" class="pop-16-24-400-secondary-white">Shop Now</a>
                 </div>
               </div>
-              <div class="card1">
+              <div class="arrival-bottom__card bottom__card2">
                 <img src="../assets/images/png/black-woman.png" alt="">
                 <div class="text">
-                  <h3 class="arrival-bottom__h3">PlayStation 5</h3>
-                  <p class="arrival-bottom__p">Black and White version of the PS5 coming out on sale.</p>
-                  <a href="#" class="arrival-bottom__a">Shop Now</a>
+                  <h3 class="inter-24-24-600">Women’s Collections</h3>
+                  <p class="pop-14-21-400">Featured woman collections that give you another vibe.</p>
+                  <a href="" class="pop-16-24-400-secondary-white">Shop Now</a>
                 </div>
               </div>
-              <div class="card2">
+              <div class="arrival-bottom__card bottom__card3">
                 <img src="../assets/images/png/small-kalonka.png" alt="">
                 <div class="text">
-                  <h3 class="arrival-bottom__h3">PlayStation 5</h3>
-                  <p class="arrival-bottom__p">Black and White version of the PS5 coming out on sale.</p>
-                  <a href="#" class="arrival-bottom__a">Shop Now</a>
+                  <h3 class="inter-24-24-600">Speakers</h3>
+                  <p class="pop-14-21-400">Amazon wireless speakers</p>
+                  <a href="" class="pop-16-24-400-secondary-white">Shop Now</a>
                 </div>
               </div>
-              <div class="card3">
+              <div class="arrival-bottom__card bottom__card4">
                 <img src="../assets/images/png/gucci-perfume.png" alt="">
                 <div class="text">
-                  <h3 class="arrival-bottom__h3">PlayStation 5</h3>
-                  <p class="arrival-bottom__p">Black and White version of the PS5 coming out on sale.</p>
-                  <a href="#" class="arrival-bottom__a">Shop Now</a>
+                  <h3 class="inter-24-24-600">Perfume 5</h3>
+                  <p class="pop-14-21-400">GUCCI INTENSE OUD EDP</p>
+                  <a href="" class="pop-16-24-400-secondary-white">Shop Now</a>
                 </div>
               </div>
             </div>

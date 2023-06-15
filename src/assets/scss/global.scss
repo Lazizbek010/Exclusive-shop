@@ -79,3 +79,6 @@
 .inter-24-24-700 {
     @include font(24, 24, 700, $dark-color)
 }
+.inter-24-24-600 {
+    @include font(24, 24, 600, $text-color)
+}
