@@ -3,10 +3,186 @@
         color: #00FF66;
     }
 }
-.arrival-content__bottom{
+.arrival__content{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+}
+.arrival-content__bottom{
+    
+    display: grid;
+    grid-template-areas:
+    "a a b b"
+    "a a c d";
+    row-gap: 30px;
+    column-gap: 30px;
+    .card1{
+        background-color: #0D0D0D;
+        grid-area: b;
+        position: relative;
+        img{
+            height: 233px;
+            position: absolute;
+            right: 0;
+        }
+        .text{
+            display: grid;
+            row-gap: 5px;
+            width: 255px;
+            color: white;
+            position: absolute;
+            top: 120px;
+            left: 15px;
+            h1{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 24px;
+                /* identical to box height, or 100% */
+                
+                letter-spacing: 0.03em;
+                
+                /* Text */
+                
+                color: #FAFAFA;
+            }
+            p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+                /* identical to box height, or 150% */
+                
+                
+                /* Text */
+                
+                color: #FAFAFA;
+            }
+            a{
+                width: 90px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                /* identical to box height, or 150% */
+                color: #FAFAFA;
+                border-bottom: 1px solid #FAFAFA;
+            }
+        }
+    }
+    .card2{
+        background-color: #000;
+        grid-area: c;
+        position: relative;
+        img{
+            position: absolute;
+            top: 40px;
+            left: 30px;
+        }
+        .text{
+            display: grid;
+            row-gap: 5px;
+            color: white;
+            transform: translateY(210px) translateX(20px);
+            h1{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 24px;
+                /* identical to box height, or 100% */
+                
+                letter-spacing: 0.03em;
+                
+                /* Text */
+                
+                color: #FAFAFA;
+            }
+            p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+                /* identical to box height, or 150% */
+                
+                
+                /* Text */
+                
+                color: #FAFAFA;
+            }
+            a{
+                width: 90px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                /* identical to box height, or 150% */
+                color: #FAFAFA;
+                border-bottom: 1px solid #FAFAFA;
+            }
+        }
+        
+    }
+    .card3{
+        background-color: #000;
+        grid-area: d;
+        position: relative;
+        img{
+            position: absolute;
+            top: 40px;
+            left: 30px;
+        }
+        .text{
+            display: grid;
+            row-gap: 5px;
+            color: white;
+            transform: translateY(210px) translateX(20px);
+            h1{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 24px;
+                /* identical to box height, or 100% */
+                
+                letter-spacing: 0.03em;
+                
+                /* Text */
+                
+                color: #FAFAFA;
+            }
+            p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+                /* identical to box height, or 150% */
+                
+                
+                /* Text */
+                
+                color: #FAFAFA;
+            }
+            a{
+                width: 90px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                /* identical to box height, or 150% */
+                color: #FAFAFA;
+                border-bottom: 1px solid #FAFAFA;
+            }
+        }
+    }
     .arrival-bottom__left{
+        grid-area: a;
         position: relative;
         width: 570px;
         height: 600px;
@@ -19,7 +195,9 @@
             width: 242px;
             position: absolute;
             left: 20px;
-            top: 420px;
+            top: 440px;
+            display: grid;
+            row-gap: 16px;
             .arrival-bottom__h3{
                 font-family: 'Inter';
                 font-style: normal;
@@ -42,35 +220,27 @@
                 line-height: 21px;
                 /* or 150% */
                 
-                
                 /* Text */
-                
                 color: #FAFAFA;
             }
             .arrival-bottom__a{
+                width: 90px;
+                border-bottom: 1px solid #FAFAFA;
                 font-family: 'Poppins';
                 font-style: normal;
                 font-weight: 500;
                 font-size: 16px;
                 line-height: 24px;
                 /* identical to box height, or 150% */
-                
-                
                 color: #FFFFFF;
             }
         }
     }
     .arrival-bottom__right{
         display: grid;
-        
     }
 }
 
-.card{
-    width: 100px;
-    height: 100px;
-    background-color: red;
-}
 .top-header{
     background: $dark-color;
     padding: 15px 0;
