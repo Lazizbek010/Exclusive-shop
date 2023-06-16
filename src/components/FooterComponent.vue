@@ -7,7 +7,11 @@
           <li>Subscribe</li>
           <li>Get 10% off your first order</li>
           <li class="footer__email">
-            <input type="email" placeholder="Enter your email" />
+            <input
+              class="pop-16-24-400-secondary-white"
+              type="email"
+              placeholder="Enter your email"
+            />
             <svg
               width="24"
               height="24"
@@ -26,41 +30,46 @@
           </li>
         </ul>
       </div>
-      <div class="footer__lists">
-        <ul class="footer__list">
-          <li>Support</li>
-          <li>111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.</li>
-          <li>exclusive@gmail.com</li>
-          <li>+88015-88888-9999</li>
-        </ul>
-        <ul class="footer__list">
-          <li>Account</li>
-          <li>My Account</li>
-          <li>Login / Register</li>
-          <li>Cart</li>
-          <li>Wishlist</li>
-          <li>Shop</li>
-        </ul>
-        <ul class="footer__list">
-          <li>Quick Link</li>
-          <li>Privacy Policy</li>
-          <li>Terms Of Use</li>
-          <li>FAQ</li>
-          <li>Contact</li>
-        </ul>
-      </div>
+      <ul class="footer__list">
+        <li>Support</li>
+        <li>111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.</li>
+        <li>exclusive@gmail.com</li>
+        <li>+88015-88888-9999</li>
+      </ul>
+      <ul class="footer__list">
+        <li>Account</li>
+        <li>My Account</li>
+        <li>Login / Register</li>
+        <li>Cart</li>
+        <li>Wishlist</li>
+        <li>Shop</li>
+      </ul>
+      <ul class="footer__list">
+        <li>Quick Link</li>
+        <li>Privacy Policy</li>
+        <li>Terms Of Use</li>
+        <li>FAQ</li>
+        <li>Contact</li>
+      </ul>
       <div class="footer__app">
         <ul class="footer__list">
           <li>Download App</li>
         </ul>
-        <p>Save $3 with App New User Only</p>
         <div class="footer__qrcode">
-          <img src="../assets/images/svg/qrcode.svg" alt="" />
-          <img src="../assets/images/svg/play-market.svg" alt="" />
-          <img src="../assets/images/svg/appstore.svg" alt="" />
+          <p class="pop-12-18-500">Save $3 with App New User Only</p>
+          <div class="footer__applications">
+            <img class="a" src="../assets/images/svg/qrcode.svg" alt="" />
+            <a href="https://play.google.com/store/games" target="_blank">
+              <img class="b" src="../assets/images/svg/play-market.svg" alt="" />
+            </a>
+            <a href="https://www.apple.com/ru/app-store/" target="_blank">
+              <img class="c" src="../assets/images/svg/appstore.svg" alt="" />
+            </a>
+          </div>
         </div>
         <div class="footer__icon">
-          <svg
+         <a href="https://www.facebook.com/">
+           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="11"
             height="18"
@@ -72,7 +81,9 @@
             />
           </svg>
 
-          <svg
+         </a>
+          <a href="https://twitter.com/?lang=ru">
+            <svg
             width="24"
             height="24"
             viewBox="0 0 24 24"
@@ -93,7 +104,10 @@
               </clipPath>
             </defs>
           </svg>
-          <svg
+          </a>
+
+         <a href="https://www.instagram.com/">
+           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
@@ -113,8 +127,10 @@
             />
             <path fill="#fff" d="M17.5 7.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" />
           </svg>
+         </a>
 
-          <svg
+          <a href="https://www.linkedin.com/feed/">
+            <svg
             width="24"
             height="24"
             viewBox="0 0 24 24"
@@ -126,6 +142,8 @@
               fill="white"
             />
           </svg>
+          </a>
+
         </div>
       </div>
     </div>
