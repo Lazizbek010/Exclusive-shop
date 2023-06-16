@@ -1,15 +1,14 @@
 <template>
-    <div>
-        <h1>About PAge</h1>
-        <ServicesComponent />
-    </div>
+  <div>
+    <section class="services container">
+      <ServicesComponent v-for="feruza in 3" :key="feruza" />
+    </section>
+  </div>
 </template>
 
 <script setup>
 import ServicesComponent from "../components/ServiceComponent.vue";
-
 </script>
 
 <style lang="scss" scoped>
-
 </style>
