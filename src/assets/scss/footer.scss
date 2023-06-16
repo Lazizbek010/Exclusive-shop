@@ -1,0 +1,104 @@
+.footer {
+    background: $dark-color;
+    color: $text-color;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        padding: 80px 0 60px;
+    }
+
+    &__logo {
+        color: $text-color;
+        margin-bottom: 24px;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        li {
+            @include font(16, 24, 400, $text-color);
+
+            &:nth-child(1) {
+                margin-bottom: 8px;
+                @include font(20, 28, 500, $text-color);
+            }
+        }
+    }
+
+    &__email {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        width: 217px;
+        border: 1.5px solid #FAFAFA;
+        border-radius: 4px;
+        padding: 12px 0px 12px 16px;
+
+        input {
+            width: 138px;
+            background: transparent;
+            opacity: 0.4;
+        }
+    }
+
+    &__list {
+        max-width: 217px;
+        word-wrap: normal;
+    }
+
+    &__app {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        .footer__list {
+            li {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &__qrcode {
+        p {
+            margin-bottom: 12px;
+            color: rgba($color: $text-color, $alpha: 0.7);
+        }
+    }
+    &__applications {
+        display: grid;
+        gap: 10px;
+        grid-template-areas:
+            "a b"
+            "a c";
+
+        .a {
+            grid-area: a;
+        }
+
+        .b {
+            grid-area: b;
+        }
+
+        .c {
+            grid-area: c;
+        }
+    }
+    &__icon{
+        display: flex;
+        gap: 24px;
+        align-items: center;
+    }
+    &__bottom {
+        padding: 16px 0 24px;
+        border-top: 1px solid rgba(255, 255, 255, .4);
+
+        p {
+            text-align: center;
+            opacity: .4;
+            color: $primary-color;
+        }
+    }
+}

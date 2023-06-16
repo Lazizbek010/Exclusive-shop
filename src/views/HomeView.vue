@@ -1,4 +1,5 @@
 <template>
+
   <div>
     <header></header>
     <main class="main-categories__parent">
@@ -50,11 +51,28 @@
               <path fill="#fff" d="M12.364 12.95 17.314 8l1.414 1.414-6.364 6.364L6 9.414 7.414 8l4.95 4.95Z" />
             </svg>
           </div>
+  <div class="home">
+    <main class="main-categories__parent">
+      <div class="main-left__child">
+        <h1>Categories</h1>
+        <p>Enhance Your Music Experience</p>
+        <p>Enhance Your Music Experience</p>
+        <div class="hours-items">
+          <span>23 <br />Hours</span>
+          <br />
+          <span>05 <br />Days </span>
+          <br />
+          <span>59 <br />Minutes </span>
+          <br />
+          <span>35 <br />Seconds </span>
+          <br />
+          <button>Buy Now!</button>
         </div>
       </div>
-      <nav></nav>
-    </header>
-    <main>
+      <div class="main-right__child">
+        <img src="../assets/images/png/kalonka.png" alt="" />
+      </div>
+
       <section id="arrival">
         <div class="container">
           <div class="arrival__content">
@@ -62,12 +80,27 @@
               <SectionTop />
             </div>
             <div class="arrival-content__bottom">
+
               <div class="arrival-bottom__card bottom__card1">
                 <img src="../assets/images/png/Play-station.png" alt="">
                 <div class="text">
                   <h3 class="inter-24-24-600">PlayStation 5</h3>
                   <p class="pop-14-21-400">Black and White version of the PS5 coming out on sale.</p>
                   <a href="" class="pop-16-24-400-secondary-white">Shop Now</a>
+
+              <div class="arrival-bottom__left">
+                <img
+                  class="arrival-bottom__img"
+                  src="../assets/images/png/Play-station.png"
+                  alt=""
+                />
+                <div class="arrival-bottom__text">
+                  <h3 class="arrival-bottom__h3">PlayStation 5</h3>
+                  <p class="arrival-bottom__p">
+                    Black and White version of the PS5 coming out on sale.
+                  </p>
+                  <a href="#" class="arrival-bottom__a">Shop Now</a>
+
                 </div>
               </div>
               <div class="arrival-bottom__card bottom__card2">
@@ -98,16 +131,17 @@
           </div>
         </div>
       </section>
-      <MainEnd />
-    </main>
-    <footer></footer>
 
+      <ServicesComponent />
+    </main>
   </div>
 </template>
 
 <script setup>
-import SectionTop from '../components/SectionTop.vue';
-import MainEnd from '../components/MainEnd.vue';
+import SectionTop from "../components/SectionTop.vue";
+import ServicesComponent from "../components/ServiceComponent.vue";
+import { useCounterStore } from '../stores/Counter.js';
+const store = useCounterStore();
 
 
 </script>

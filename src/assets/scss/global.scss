@@ -11,9 +11,30 @@
 }
 
 *::selection {
-    background: #DB4444;
-    color: black;
+    background: $secondary2-color;
+    color: $dark-color;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 12px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(180, 4, 4, 0.692);
+  }
 
 .container {
     max-width: 1200px;
@@ -57,7 +78,7 @@
 }
 
 .pop-12-18-500 {
-    @include font(12, 18, 700, $dark-color)
+    @include font(12, 18, 500, $dark-color)
 }
 
 .pop-16-24-500 {

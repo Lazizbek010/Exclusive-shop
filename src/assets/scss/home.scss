@@ -1,3 +1,4 @@
+
 .main-left__child{
     h1{
         color: #00FF66;
@@ -98,9 +99,124 @@
         display: flex;
         align-items: center;
         gap: 8px;
+.main-categories__parent {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 4fr);
+    background: #000000;
+
+    .main-left__child {
+        h1 {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            color: #00FF66;
+
+        }
+
+        p {
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 60px;
+            letter-spacing: 0.04em;
+            color: #ffff;
+        }
     }
+
+
+
+
 }
 
+.main-right__child {
+    img {
+        background: #D9D9D9;
+        filter: blur(100px);
+    }
 
 
 
+
+    .main-left__child {
+        h1 {
+            color: #00FF66;
+        }
+    }
+
+    .arrival-content__bottom {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .arrival-bottom__left {
+            position: relative;
+            width: 570px;
+            height: 600px;
+            background: #000;
+
+            .arrival-bottom__img {
+                position: absolute;
+                bottom: 0;
+            }
+
+            .arrival-bottom__text {
+                width: 242px;
+                position: absolute;
+                left: 20px;
+                top: 420px;
+
+                .arrival-bottom__h3 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 24px;
+                    /* identical to box height, or 100% */
+
+                    letter-spacing: 0.03em;
+
+                    /* Text */
+
+                    color: #FAFAFA;
+                }
+
+                .arrival-bottom__p {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                    /* or 150% */
+
+
+                    /* Text */
+
+                    color: #FAFAFA;
+                }
+
+                .arrival-bottom__a {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    /* identical to box height, or 150% */
+
+
+                    color: #FFFFFF;
+                }
+            }
+        }
+
+        .arrival-bottom__right {
+            display: grid;
+
+        }
+    }
+
+    .card {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+    }
+}
