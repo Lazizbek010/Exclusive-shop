@@ -11,6 +11,22 @@
         color: $text-color;
         margin-bottom: 24px;
     }
+    &__list{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        li{
+            @include font(16,24,400, $text-color);
+            &:nth-child(1){
+                margin-bottom: 8px;
+            @include font(20,28,500, $text-color);
+            }
+        }
+    }
+    &__email{
+        
+    }
+
     &__bottom{
         padding: 16px 0 24px;
         border-top: 1px solid rgba(255, 255, 255, .4);

@@ -60,6 +60,10 @@
 <script setup>
 import SectionTop from "../components/SectionTop.vue";
 import ServicesComponent from "../components/ServiceComponent.vue";
+import { useCounterStore } from '../stores/Counter.js';
+const store = useCounterStore();
+
+
 </script>
 
 
