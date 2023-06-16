@@ -1,3 +1,104 @@
+
+.main-left__child{
+    h1{
+        color: #00FF66;
+    }
+}
+.arrival-content__bottom{
+    margin-top: 60px;
+    display: grid;
+    grid-template-areas: 
+    "a a b b"
+    "a a c d";
+    row-gap: 32px;
+    column-gap: 30px;
+    .bottom__card1{
+        width: 570px;
+        height: 600px;
+        grid-area: a;
+        background-color: black;
+        img{
+            transform: translateY(89px) translateX(30px);
+        }
+        .text{
+            width: 242px;
+            transform: translateY(-50px) translateX(30px);
+            display: grid;
+            row-gap: 5px;
+            color: white;
+            a{
+                width: 90px;
+                border-bottom: 1px solid $text-color;
+            }
+        }
+    }
+    .bottom__card2{
+        width: 570px;
+        height: 284px;
+        background-color: #0D0D0D;
+        grid-area: b;
+        img{
+            height: inherit;
+            transform: translateX(135px);
+        }
+        .text{
+            width: 259px;
+            transform: translateY(-140px) translateX(30px);
+            display: grid;
+            row-gap: 10px;
+            a{
+                width: 90px;
+                border-bottom: 1px solid $text-color;
+            }
+        }
+    }
+    .bottom__card3{
+        width: 270px;
+        height: 284px;
+        background-color: #282828;
+        grid-area: c;
+        img{
+            transform: translateY(50px) translateX(30px);
+        }
+        .text{
+            width: 191px;
+            transform: translateY(-40px) translateX(30px);
+            display: grid;
+            row-gap: 5px;
+            a{
+                width: 90px;
+                border-bottom: 1px solid $text-color;
+            }
+        }
+    }
+    .bottom__card4{
+        width: 270px;
+        height: 284px;
+        background-color: #282828;
+        grid-area: d;
+        img{
+            transform: translateY(50px) translateX(30px);
+        }
+        .text{
+            width: 191px;
+            transform: translateY(-30px) translateX(30px);
+            display: grid;
+            row-gap: 5px;
+            a{
+                width: 90px;
+                border-bottom: 1px solid $text-color;
+            }
+        }
+    }
+}
+
+.top-header{
+    background: $dark-color;
+    padding: 15px 0;
+    &__info{
+        display: flex;
+        align-items: center;
+        gap: 8px;
 .main-categories__parent {
     display: grid;
     justify-items: center;
