@@ -1,34 +1,6 @@
 .contact {
     padding: 80px 0 140px;
 
-    .breadcrumb {
-        margin-bottom: 80px;
-
-        &__list {
-            display: flex;
-            gap: 30px;
-
-            a {
-                color: $dark-color;
-                opacity: .5;
-                position: relative;
-
-                &.active {
-                    opacity: 1;
-                }
-
-                &::after {
-                    content: '/';
-                    margin-left: 12px;
-                    position: absolute;
-                    top: 50%;
-                    transform: translateY(-50%);
-                }
-            }
-
-        }
-    }
-
     &__menu {
         display: flex;
         gap: 30px;
