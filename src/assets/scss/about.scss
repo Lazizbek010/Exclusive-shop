@@ -40,15 +40,10 @@
     .customer-about__cards {
         display: grid;
         grid-template-columns: repeat(6, 3fr);
-        // align-items: center;
         justify-items: center;
         gap: 30px;
         margin-top: 240px;
         margin-bottom: 140px;
-
-
-
-
         .customer-about__card {
             width: 270px;
             border: 1px solid rgba(0, 0, 0, 0.3);
@@ -59,10 +54,7 @@
                 background: #DB4444;
             }
         }
-
-
     }
-
     .people-section__cards {
         display: grid;
         grid-template-columns: repeat(6, 3fr);
@@ -78,7 +70,6 @@
             letter-spacing: 0.04em;
             color: #000000;
             margin-bottom: 8px;
-
             p {
                 font-weight: 400;
                 font-size: 16px;
@@ -86,6 +77,5 @@
                 color: #000000;
             }
         }
-
     }
 }
