@@ -5,6 +5,7 @@ import AboutView from '../views/AboutView.vue';
 import Wishlist from '../views/WishlistView.vue';
 import Cart from '../views/CartView.vue';
 import SignUp from '../views/SignUpView.vue';
+import Error from '../views/ErrorView.vue';
 
 
 
@@ -41,6 +42,11 @@ const router = createRouter({
             path: '/cart',
             name: 'cart',
             component: Cart,
+        },
+        {
+            path: '/error',
+            name: 'error',
+            component: Error,
         },
     ]
 })
