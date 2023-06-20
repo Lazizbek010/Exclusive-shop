@@ -1,0 +1,249 @@
+.prodact-detalis__content {
+    margin-top: 81px;
+    margin-bottom: 134px;
+    display: grid;
+    grid-template-areas:
+        'a b b b c c'
+        'a1 b b b c c'
+        'a2 b b b c c'
+        'a3 b b b c c';
+    row-gap: 40px;
+    column-gap: 50px;
+
+    .a {
+        grid-area: a;
+    }
+
+    .a1 {
+        grid-area: a1;
+    }
+
+    .a2 {
+        grid-area: a2;
+    }
+
+    .a3 {
+        grid-area: a3;
+    }
+
+    .b {
+        grid-area: b;
+    }
+
+    .d {
+        grid-area: c;
+    }
+
+    .prodact-detalis__card {
+        width: 170px;
+        height: 138px;
+        background-color: #F5F5F5;
+        padding: 12px 24px;
+    }
+
+    .prodact-detalis__card-b {
+        width: 500px;
+        height: 100%;
+        background-color: #F5F5F5;
+
+        img {
+            padding: 154px 27px;
+        }
+    }
+
+    .prodact-detalis__card-d {
+
+        .top {
+            display: grid;
+            row-gap: 16px;
+
+            h1 {
+                @include font(24, 24, 600, $dark-color);
+            }
+
+            .reviews {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+
+                p {
+                    @include font(14, 21, 400, gray);
+                }
+
+                .stock {
+                    padding-left: 16px;
+                    border-left: 2px solid gray;
+                    @include font(14, 21, 400, $btn-color);
+                }
+            }
+
+            h2 {
+                @include font(24, 24, 600, $dark-color);
+            }
+        }
+
+        .middle {
+            display: grid;
+            row-gap: 24px;
+
+            hr {
+                border: 1px solid gray;
+            }
+
+            p {
+                padding-top: 24px;
+                @include font(14, 21, 400, $dark-color);
+            }
+
+            .colours {
+                display: flex;
+                gap: 24px;
+
+                form {
+                    display: flex;
+                    gap: 8px;
+
+                    input {
+                        width: 20px;
+                        height: 20px;
+                    }
+
+                    .color1[type='radio']:after {
+                        width: 15px;
+                        height: 15px;
+                        border-radius: 15px;
+                        position: relative;
+                        background-color: #A0BCE0;
+                        content: '';
+                        display: inline-block;
+                        visibility: visible;
+                        border: 2px solid white;
+                    }
+
+                    .color2[type='radio']:after {
+                        width: 15px;
+                        height: 15px;
+                        border-radius: 15px;
+                        position: relative;
+                        background-color: #E07575;
+                        content: '';
+                        display: inline-block;
+                        visibility: visible;
+                        border: 2px solid white;
+                    }
+                }
+            }
+
+            .size__btns {
+                display: flex;
+                gap: 24px;
+                align-items: center;
+
+                .btn-family {
+                    display: flex;
+                    gap: 16px;
+
+                    .btns {
+                        width: 32px;
+                        height: 32px;
+                        background-color: white;
+                        border: 1px solid rgba(0, 0, 0, 0.5);
+                        border-radius: 4px;
+                    }
+
+                    .btns:active {
+                        background-color: red;
+                    }
+                }
+            }
+
+            .buy-prodact {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                column-gap: 16px;
+                .the-number {
+                    width: 159px;
+                    height: 44px;
+                    border: 1px solid gray;
+                    border-radius: 4px;
+
+                    span {
+                        padding: 8px 33.9px;
+                    }
+
+                    .separation {
+                        width: 40px;
+                        height: 42px;
+                        border-radius: 4px 0 0 4px;
+                        background-color: white;
+                        border-right: 1px solid gray;
+                    }
+
+                    .addition {
+                        width: 40px;
+                        height: 42px;
+                        border-radius: 0 4px 4px 0;
+                        background-color: #DB4444;
+                        border-left: 1px solid gray;
+                    }
+                }
+
+                .buy-now {
+                    padding: 10px 48px;
+                    width: 165px;
+                    height: 44px;
+                    background: #DB4444;
+                    border-radius: 4px;
+                    @include font(16, 24, 500, $text-color)
+                }
+                .like{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 4px;
+                    border: 1px solid gray;
+                    padding-left: 2px;
+                    padding-top: 1px;
+                }
+            }
+        }
+
+        .delivery-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .delivery {
+                margin-top: 40px;
+                width: 399px;
+                flex-direction: column;
+                border: 1px solid gray;
+
+                .free-dalivery {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 16px;
+                    padding: 24px 51px 16px 16px;
+
+                    .right {
+                        display: flex;
+                        flex-direction: column;
+                        h3{
+                            @include font(16, 24, 500, $dark-color)
+                        }
+                        p{
+                        width: 300px;
+                            @include font(12, 18, 500, $dark-color);
+                            text-decoration: underline;
+                        }
+                    }
+
+                }
+
+                .return {
+                    border-top: 1px solid gray;
+                }
+            }
+        }
+    }
+}
