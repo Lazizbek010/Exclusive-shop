@@ -1,0 +1,21 @@
+.error{
+    padding: 80px 0 140px;
+    .breadcrumb {
+        margin-bottom: 140px;
+    }
+    &__content{
+        text-align: center;
+        h1{
+            margin-bottom: 40px;
+            letter-spacing: 0.03em;
+            font-family: 'Inter';
+            @include font(110, 115, 500, $dark-color);
+        }
+        p{
+            margin-bottom: 80px;
+        }
+        button{
+            background: $secondary2-color;
+        }
+    }
+}

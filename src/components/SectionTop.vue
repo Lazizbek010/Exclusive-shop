@@ -12,7 +12,7 @@
 
 </script>
 
-<style>
+<style scoped>
 .feature__top {
     width: 20px;
     height: 40px;
@@ -36,6 +36,7 @@ p {
 }
 
 h1 {
+    margin-top: 16px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;

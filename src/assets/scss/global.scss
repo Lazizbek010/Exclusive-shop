@@ -78,7 +78,7 @@
 }
 
 .pop-12-18-500 {
-    @include font(12, 18, 700, $dark-color)
+    @include font(12, 18, 500, $dark-color)
 }
 
 .pop-16-24-500 {
@@ -99,4 +99,35 @@
 
 .inter-24-24-700 {
     @include font(24, 24, 700, $dark-color)
+}
+.inter-24-24-600 {
+    @include font(24, 24, 600, $text-color)
+}
+
+.breadcrumb {
+    margin-bottom: 80px;
+
+    &__list {
+        display: flex;
+        gap: 30px;
+
+        a {
+            color: $dark-color;
+            opacity: .5;
+            position: relative;
+
+            &.active {
+                opacity: 1;
+            }
+
+            &::after {
+                content: '/';
+                margin-left: 12px;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+
+    }
 }

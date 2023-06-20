@@ -1,0 +1,95 @@
+.contact {
+    padding: 80px 0 140px;
+
+    &__menu {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__info {
+        width: 340px;
+        padding: 40px 35px 35px;
+        box-shadow: $shadow-color2;
+        border-radius: 4px;
+
+        p {
+            color: $dark-color;
+            margin-bottom: 16px;
+        }
+
+        .line {
+            width: 100%;
+            height: 1px;
+            background: $dark-color;
+            margin: 32px 0;
+        }
+    }
+
+    &__img {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 24px;
+
+        span {
+            color: $dark-color;
+        }
+    }
+
+    &__form {
+        max-width: 800px;
+        padding: 40px 32px;
+        border-radius: 4px;
+        box-shadow: $shadow-color2;
+
+        form {
+            display: grid;
+            grid-template-areas:
+                "a b c"
+                "d d d"
+                ". . f";
+            gap: 32px 16px;
+
+            textarea {
+                resize: none;
+                width: 100%;
+                height: 100%;
+            }
+
+            input,
+            textarea {
+                background: transparent;
+                opacity: 0.8;
+            }
+
+            div {
+                background: $secondary-color;
+                border-radius: 4px;
+                padding: 13px 16px;
+            }
+
+            .a {
+                grid-area: a;
+            }
+
+            .b {
+                grid-area: b;
+            }
+
+            .c {
+                grid-area: c;
+            }
+
+            .d {
+                grid-area: d;
+                height: 207px;
+            }
+
+            .f {
+                grid-area: f;
+                background: $secondary2-color;
+            }
+        }
+
+    }
+}

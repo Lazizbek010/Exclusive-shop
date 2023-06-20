@@ -39,7 +39,7 @@
                     <router-link :to="{name: 'about'}">About</router-link>
                 </li>
                 <li>
-                    <a href="#">Sign Up</a>
+                  <router-link :to="{name: 'sign-up'}">Sign Up</router-link>
                 </li>
             </ul>
             <div class="nav__menu">
