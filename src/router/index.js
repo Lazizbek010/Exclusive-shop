@@ -4,6 +4,7 @@ import ContactView from '../views/ContactView.vue';
 import AboutView from '../views/AboutView.vue';
 import Wishlist from '../views/WishlistView.vue';
 import Cart from '../views/CartView.vue';
+import ProdactDetalis from '../views/ProductDetailView.vue'
 
 
 
@@ -24,7 +25,7 @@ const router = createRouter({
         {
             path: '/about',
             name: 'about',
-            component: AboutView,
+            component: ProdactDetalis,
         },
         {
             path: '/wishlist',
