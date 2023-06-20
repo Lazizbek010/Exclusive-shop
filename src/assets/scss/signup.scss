@@ -1,0 +1,125 @@
+.login {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 129px;
+
+    .login__right {
+        img {
+            padding-top: 60px;
+            margin-bottom: 140px;
+            width: 605px;
+            height: 581px;
+        }
+
+    }
+
+
+
+
+    .login__left {
+        margin-left: 100px;
+
+        .inp input {
+            text-align: start;
+            border-bottom: 1px solid;
+            padding: 4px;
+            width: 370px;
+            margin-top: 40px;
+        }
+
+
+        .text {
+            display: grid;
+            row-gap: 24px;
+
+            h1 {
+                font-size: 36px;
+                line-height: 30px;
+                color: #000000;
+            }
+        }
+
+
+
+        .log {
+
+            input {
+                width: 371px;
+                height: 56px;
+                font-size: 16px;
+                line-height: 24px;
+                background: #DB4444;
+                border-radius: 4px;
+                color: #FAFAFA;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 24px;
+                color: #DB4444;
+
+            }
+
+        }
+
+        .sign {
+
+
+
+            .btn1 {
+                text-align: center;
+                align-items: center;
+                width: 371px;
+                height: 56px;
+                margin-top: 40px;
+                font-size: 16px;
+                text-align: center;
+                line-height: 24px;
+                background: #DB4444;
+                border-radius: 4px;
+                color: #FAFAFA;
+            }
+
+            .btn2 {
+                width: 371px;
+                height: 56px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                gap: 16px;
+                padding-left: 85px;
+                margin-top: 16px;
+                border: 1px solid rgba(0, 0, 0, 0.4);
+                border-radius: 4px;
+                font-size: 16px;
+                line-height: 24px;
+                color: #000000;
+                background: transparent;
+
+            }
+
+            p {
+                padding-left: 76px;
+
+                margin-top: 32px;
+            }
+
+            .spn {
+                cursor: pointer;
+                width: 40px;
+                margin-left: 25px;
+
+                border-bottom: 1px solid;
+            }
+
+            .sign__text p {
+                font-size: 16px;
+                line-height: 24px;
+                color: #000000;
+            }
+
+        }
+    }
+
+}
