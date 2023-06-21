@@ -1,0 +1,182 @@
+.cart {
+    .cart__title {
+
+        margin-top: 100px;
+
+        .cart__title__header {
+            box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.05);
+            border-radius: 4px;
+            padding: 20px;
+
+            .cart__title__text {
+                margin-left: 294px;
+            }
+        }
+
+        .cart__title__header ul li a {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+        }
+
+        .cart__title__header ul li {
+            display: inline-block;
+        }
+
+        .cart__title__main {
+            display: flex;
+            margin-top: 40px;
+            align-items: center;
+            box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.05);
+            border-radius: 4px;
+            padding: 20px;
+
+            .left__mar__1 {
+                margin-left: 190px;
+            }
+
+            .monitor__text {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #000000;
+                margin-left: 25px;
+            }
+
+            .left__mar {
+                margin-left: 300px;
+            }
+
+            .left__mar__2 {
+                margin-left: 187px;
+            }
+
+            .zero__parent {
+                display: flex;
+                border: 1.5px solid rgba(0, 0, 0, 0.4);
+                border-radius: 4px;
+                width: 72px;
+                height: 44px;
+                margin-left: 284px;
+                align-items: center;
+                padding: 10px;
+
+                .zero {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #000000;
+                }
+
+                .icons__cart {
+                    margin-left: 16px;
+                    margin-top: 10px;
+                    .icons__cart__img__1 {
+                        position: absolute;
+                    }
+
+                    .icons__cart__img__2 {
+                        position: relative;
+                        margin-top: 16px;
+                    }
+
+                }
+            }
+        }
+
+        .cart__title__btn {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 24px;
+
+            .cart__title__btn__1 {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                color: #000000;
+                border: 1px solid rgba(0, 0, 0, 0.5);
+                border-radius: 4px;
+                background: transparent;
+                padding: 16px 46px;
+            }
+        }
+    }
+
+    .cart__bottom {
+        display: flex;
+        // justify-content: space-between;
+        margin-top: 96px;
+        margin-bottom: 140px;
+
+        .cart__bottom__left {
+            #cart__input {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #000000;
+                border: 1px solid #000000;
+                border-radius: 4px;
+                padding: 15px 44px;
+            }
+
+            .cart__bottom__left__btn {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                color: #FAFAFA;
+                padding: 16px 48px;
+                background: #DB4444;
+                border-radius: 4px;
+                margin-left: 16px;
+            }
+
+        }
+
+        .cart__bottom__right {
+            border: 1.5px solid #000000;
+            border-radius: 4px;
+            padding: 24px;
+            margin-left: 100px;
+
+            .cart__page__text {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 28px;
+                color: #000000;
+            }
+
+            .cart__bottom__right__child__aside {
+                display: flex;
+                align-items: center;
+                margin-top: 24px;
+                justify-content: space-between;
+                padding-bottom: 16px;
+            }
+
+            .cart__page__hr {
+                border-bottom: 1px solid #000;
+            }
+
+            .cart__page__price {
+                margin-left: 307px;
+            }
+
+            .cart__page__btn {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                color: #FAFAFA;
+                background: #DB4444;
+                border-radius: 4px;
+                padding: 16px 48px;
+                margin-left: 89px;
+                margin-top: 16px;
+            }
+        }
+    }
+
+
+
+}
