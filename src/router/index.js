@@ -4,6 +4,7 @@ import ContactView from '../views/ContactView.vue';
 import AboutView from '../views/AboutView.vue';
 import Wishlist from '../views/WishlistView.vue';
 import Cart from '../views/CartView.vue';
+import SighUp from '../views/SighUp.vue';
 
 
 
@@ -35,6 +36,11 @@ const router = createRouter({
             path: '/cart',
             name: 'cart',
             component: Cart,
+        },
+        {
+            path: '/sign-up',
+            name: 'sign-up',
+            component: SighUp,
         },
     ]
 })
