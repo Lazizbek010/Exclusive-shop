@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../src/assets/scss/about.scss"
-    ],
-    "names": [],
-    "file": "about.min.css"
-}

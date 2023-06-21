@@ -8,7 +8,7 @@
                     <li class="cart__title__text"><a href="#">Price</a></li>
                     <li class="cart__title__text"><a href="#">Quantity</a></li>
                     <li class="cart__title__text"><a href="#">Subtotal</a></li>
-                </ul>
+                </ul>                                                                                                                                                                                                                           
             </div>
             <div class="cart__title__main">
                 <img src="../assets/images/svg/Cart-Small-Monitor.svg" alt="">
