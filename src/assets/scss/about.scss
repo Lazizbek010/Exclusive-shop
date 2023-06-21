@@ -1,80 +1,92 @@
-.container__about {
-    .about-left__parent {
-        display: grid;
-        grid-template-areas:
-            "a a b b"
-            "c c b b"
-        ;
+.about {
+    padding: 80px 0 140px;
+
+    .breadcrumb {
+        margin-bottom: 42px;
     }
 
-    h1 {
-
-        font-weight: 600;
-        font-size: 54px;
-        line-height: 64px;
-        color: #000000;
-    }
-
-    p {
-
-        width: 525px;
-        font-weight: 400;
-        font-size: 16px;
-        grid-area: c;
-        color: #000000;
-    }
-
-    .about-right__img {
-        grid-area: b;
-
-        img {
-            width: 600px;
-            height: 609px;
-            margin-right: -250px;
-            margin-top: 23px;
-
-
+    .story {
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
         }
-    }
 
-    .customer-about__cards {
-        display: grid;
-        grid-template-columns: repeat(6, 3fr);
-        justify-items: center;
-        gap: 30px;
-        margin-top: 240px;
-        margin-bottom: 140px;
-        .customer-about__card {
-            width: 270px;
-            border: 1px solid rgba(0, 0, 0, 0.3);
-            border-radius: 4px;
-            padding: 23px 30px;
+        &__info {
+            max-width: 525px;
 
-            .customer-about__card:hover {
-                background: #DB4444;
+            h1 {
+                font-family: 'Inter';
+                @include font(54, 64, 600, $dark-color);
+                letter-spacing: 0.06em;
+                margin-bottom: 40px;
+            }
+
+            p {
+                @include font(16, 26, 400, $dark-color);
+
+                &:not(:last-child) {
+                    margin-bottom: 24px;
+                }
+            }
+        }
+
+        &__img {
+            width: 705px;
+            height: 609px;
+            border-radius: 4px 0px 0px 4px;
+
+            img {
+                width: inherit;
+                height: inherit;
             }
         }
     }
-    .people-section__cards {
-        display: grid;
-        grid-template-columns: repeat(6, 3fr);
-        justify-items: center;
-        align-items: center;
-        margin-bottom: 123px;
 
-        h1 {
-            font-weight: 500;
-            font-size: 32px;
-            line-height: 30px;
-            margin-top: 32px;
-            letter-spacing: 0.04em;
-            color: #000000;
-            margin-bottom: 8px;
-            p {
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 24px;
-                color: #000000;
+    .info {
+        padding: 140px 0;
+
+        .container {
+            display: grid;
+            gap: 30px;
+            grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+        }
+
+        &__item {
+            border: 1px solid rgba(0, 0, 0, 0.3);
+            border-radius: 4px;
+            padding: 30px 0;
+            text-align: center;
+            transition: .3s;
+
+            &-img {
+                width: 80px;
+                height: 80px;
+                margin: 0 auto;
+                border-radius: 50%;
+
+                img {
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+
+                }
+            }
+
+            h1 {
+                font-family: 'Inter';
+                margin: 24px 0 12px;
+            }
+
+            &:hover {
+                background: $secondary2-color;
+                box-shadow: $shadow-color;
+                border-color: $secondary2-color;
+            }
+
+            &:hover h1,
+            &:hover p {
+                color: $primary-color;
             }
         }
     }
