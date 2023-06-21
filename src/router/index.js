@@ -4,6 +4,7 @@ import ContactView from '../views/ContactView.vue';
 import AboutView from '../views/AboutView.vue';
 import Wishlist from '../views/WishlistView.vue';
 import Cart from '../views/CartView.vue';
+
 import ProdactDetalis from '../views/ProductDetailView.vue'
 
 import LogIn from '../views/LogInView.vue';
@@ -54,7 +55,6 @@ const router = createRouter({
             component: Cart,
         },
         {
-
             path: '/login',
             name: 'login',
             component: LogIn,
@@ -66,7 +66,7 @@ const router = createRouter({
             component: Error,
         },
 
-    ]
+  ]
 })
 
 
