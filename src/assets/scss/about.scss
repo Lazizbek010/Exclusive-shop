@@ -90,4 +90,38 @@
             }
         }
     }
+
+    .team {
+        .slide {
+            margin-bottom: 40px;
+        }
+
+        &__item {
+            h1 {
+                font-family: 'Inter';
+                letter-spacing: 0.04em;
+                margin-bottom: 8px;
+                @include font(32, 30, 500, $dark-color)
+            }
+            p{
+                margin-bottom: 16px;
+            }
+        }
+        &__icons{
+            display: flex;
+            gap: 16px;
+        }
+        &__img {
+            background: $secondary-color;
+            border-radius: 4px;
+            margin-bottom: 32px;
+            width: 370px;
+            height: 430px;
+
+            img {
+                width: auto;
+                height: auto;
+            }
+        }
+    }
 }
