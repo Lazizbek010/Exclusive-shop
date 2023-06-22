@@ -64,6 +64,9 @@
         </swiper-slide>
       </swiper>
     </section>
+    <section class="services container">
+      <ServicesComponent v-for="service in 3" :key="service"/>
+    </section>
   </div>
 </template>
 

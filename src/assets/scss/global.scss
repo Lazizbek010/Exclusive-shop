@@ -131,3 +131,27 @@
 
     }
 }
+
+.swiper-pagination-bullet{
+    width: 14px;
+    height: 14px;
+    background: rgba($color: $dark-color, $alpha: 0.3);
+    border: 2px solid transparent;
+    position: relative;
+   
+}
+.swiper-pagination-bullet-active{
+    background: $secondary2-color;
+    border: 2px solid #bfbfbf;
+    &::after{
+        content: "";
+        display: block;
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        border: 1.5px solid #fff;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+}

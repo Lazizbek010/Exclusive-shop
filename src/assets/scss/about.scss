@@ -92,10 +92,7 @@
     }
 
     .team {
-        .slide {
-            margin-bottom: 40px;
-        }
-
+        position: relative;
         &__item {
             h1 {
                 font-family: 'Inter';
@@ -117,11 +114,24 @@
             margin-bottom: 32px;
             width: 370px;
             height: 430px;
-
+            display: flex;
+            justify-content: center;
+            align-items: center;
             img {
-                width: auto;
+                width: inherit;
                 height: auto;
             }
         }
+        .swiper{
+            position: initial !important;
+
+        }
+        .swiper-pagination{
+            bottom: -62px;
+        }
+    }
+    .services{
+        margin-top: 200px;
+        justify-content: center;
     }
 }
