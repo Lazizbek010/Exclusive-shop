@@ -254,7 +254,7 @@
 .services {
     display: grid;
     gap: 88px;
-    grid-template-columns: repeat(auto-fit, minmax(249px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(249px, 1fr));
     &__card{
         text-align: center;
         &-img{
