@@ -139,7 +139,7 @@
                 />
               </svg>
             </button>
-            <AccountComponent />
+            <AccountComponent v-show="!user"/>
           </div>
         </div>
       </div>

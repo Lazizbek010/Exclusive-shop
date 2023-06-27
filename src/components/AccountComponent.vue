@@ -25,7 +25,7 @@
 
 <style lang="scss">
 .account-modal {
-  position: fixed;
+  position: absolute;
   right: 134px;
   top: 129px;
   min-width: 225px;
