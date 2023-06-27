@@ -83,7 +83,6 @@
             }
         }
     }
-
     .bottom__card4 {
         width: 270px;
         height: 284px;
@@ -116,23 +115,19 @@
         display: flex;
         align-items: center;
         gap: 8px;
-
         .main-categories__parent {
             display: grid;
             justify-items: center;
             align-items: center;
             grid-template-columns: repeat(2, 4fr);
             background: #000000;
-
             .main-left__child {
                 h1 {
                     font-weight: 600;
                     font-size: 16px;
                     line-height: 20px;
                     color: #00FF66;
-
                 }
-
                 p {
                     font-weight: 600;
                     font-size: 48px;
@@ -141,10 +136,6 @@
                     color: #ffff;
                 }
             }
-
-
-
-
         }
 
         .main-right__child {
@@ -152,16 +143,11 @@
                 background: #D9D9D9;
                 filter: blur(100px);
             }
-
-
-
-
             .main-left__child {
                 h1 {
                     color: #00FF66;
                 }
             }
-
             .arrival-content__bottom {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
@@ -189,12 +175,7 @@
                             font-weight: 600;
                             font-size: 24px;
                             line-height: 24px;
-                            /* identical to box height, or 100% */
-
                             letter-spacing: 0.03em;
-
-                            /* Text */
-
                             color: #FAFAFA;
                         }
 
@@ -204,11 +185,6 @@
                             font-weight: 400;
                             font-size: 14px;
                             line-height: 21px;
-                            /* or 150% */
-
-
-                            /* Text */
-
                             color: #FAFAFA;
                         }
 
@@ -218,9 +194,6 @@
                             font-weight: 500;
                             font-size: 16px;
                             line-height: 24px;
-                            /* identical to box height, or 150% */
-
-
                             color: #FFFFFF;
                         }
                     }
@@ -228,7 +201,6 @@
 
                 .arrival-bottom__right {
                     display: grid;
-
                 }
             }
 
@@ -241,9 +213,6 @@
     }
 }
 
-
-
-
 .card {
     width: 100px;
     height: 100px;
@@ -255,7 +224,8 @@
     display: grid;
     gap: 88px;
     grid-template-columns: repeat(auto-fit, minmax(249px, 1fr));
-    &__card{
+
+    &__card {
         text-align: center;
 
         &-img {
@@ -277,36 +247,3 @@
     }
 }
 
-/*===================== fixsed style*/
-
-
-.manage-my__account {
-    width: 330px;
-    height: 280px;
-    border-radius: 4px;
-    background: rgba(0, 0, 0, 0.15);
-    backdrop-filter: blur(75px);
-    margin-left: 950px;
-    position: fixed;
-    top: 140px;
-    z-index: 100;
-
-
-
-    .fixsed-my__child {
-        padding: 20px 20px;
-        height: 12px;
-        padding-top: 32px;
-        display: flex;
-        align-items: center;
-        gap: 16px;
-        font-size: 14px;
-        line-height: 21px;
-
-
-
-
-
-
-    }
-}

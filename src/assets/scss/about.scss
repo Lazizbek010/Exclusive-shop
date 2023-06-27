@@ -6,15 +6,15 @@
     }
 
     .story {
-        .container {
+        position: relative;
+        height: 609px;
+        .container{
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            height: inherit;
         }
-
         &__info {
             max-width: 525px;
-
             h1 {
                 font-family: 'Inter';
                 @include font(54, 64, 600, $dark-color);
@@ -35,9 +35,12 @@
             width: 705px;
             height: 609px;
             border-radius: 4px 0px 0px 4px;
-
-            img {
-                width: inherit;
+            background: #EB7EA8;
+            position: absolute;
+            right: 0;
+            top: 0;
+            img{
+                width: 510px;
                 height: inherit;
             }
         }
@@ -131,7 +134,7 @@
         }
     }
     .services{
-        margin-top: 200px;
+        margin-top: 220px;
         justify-content: center;
     }
 }

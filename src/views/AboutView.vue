@@ -35,8 +35,6 @@
           <img
             src="../assets/images/png/About_page-img.jpg"
             alt=""
-            width="220px"
-            height="300px"
           />
         </div>
       </div>
