@@ -254,23 +254,59 @@
 .services {
     display: grid;
     gap: 88px;
-    grid-template-columns: repeat(auto-fill, minmax(249px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(249px, 1fr));
     &__card{
         text-align: center;
-        &-img{
+
+        &-img {
             width: 80px;
             height: 80px;
             margin: 0 auto 24px;
         }
     }
-    &__text{
-        h1{
+
+    &__text {
+        h1 {
             @include font(20, 28, 600, $dark-color);
             margin-bottom: 8px;
         }
-        p{
+
+        p {
             color: $dark-color;
         }
     }
-  }
+}
 
+/*===================== fixsed style*/
+
+
+.manage-my__account {
+    width: 330px;
+    height: 280px;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(75px);
+    margin-left: 950px;
+    position: fixed;
+    top: 140px;
+    z-index: 100;
+
+
+
+    .fixsed-my__child {
+        padding: 20px 20px;
+        height: 12px;
+        padding-top: 32px;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        font-size: 14px;
+        line-height: 21px;
+
+
+
+
+
+
+    }
+}
