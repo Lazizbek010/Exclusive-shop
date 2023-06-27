@@ -1,17 +1,18 @@
 <template>
     <div>
 
-        
+
         <div class="login">
             <div class="login__right">
                 <img src="../assets/images/png/Side Image.png" alt="">
-    
             </div>
 
-                <div class="container">
+            <div class="container">
+
                 <div class="login__left">
 
                     <form action="">
+
                         <div class="text">
                             <h1>Log in to Exclusive</h1>
                             <p>Enter your details below</p>
@@ -28,10 +29,10 @@
                     </form>
                 </div>
 
-                </div>
+
+            </div>
 
         </div>
-
     </div>
 </template>
 <script>
