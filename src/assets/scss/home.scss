@@ -255,8 +255,7 @@
     display: grid;
     gap: 88px;
     grid-template-columns: repeat(auto-fit, minmax(249px, 1fr));
-
-    &__card {
+    &__card{
         text-align: center;
 
         &-img {

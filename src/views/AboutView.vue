@@ -45,17 +45,39 @@
       <div class="container">
         <div class="info__item" v-for="item in 4" :key="item">
           <div class="info__item-img">
-            <img src="../assets/images/png/Sallary_img-about.jpg" alt="">
+            <img src="../assets/images/png/Sallary_img-about.jpg" alt="" />
           </div>
-          <h1 class="inter-32-30-700">10.5k </h1>
+          <h1 class="inter-32-30-700">10.5k</h1>
           <p class="pop-16-24-400">Sallers active our site</p>
         </div>
       </div>
+    </section>
+    <section class="team container">
+      <swiper
+        :pagination="true"
+        :modules="modules"
+        :space-between="30"
+        :slides-per-view="3"
+      >
+        <swiper-slide class="slide" v-for="slide in 7" :key="slide">
+          <TeamComponent />
+        </swiper-slide>
+      </swiper>
+    </section>
+    <section class="services container">
+      <ServicesComponent v-for="service in 3" :key="service"/>
     </section>
   </div>
 </template>
 
 <script setup>
 import ServicesComponent from "../components/ServiceComponent.vue";
+import TeamComponent from "../components/TeamComponent.vue";
+
+import { Swiper, SwiperSlide } from "swiper/vue";
+import { Pagination } from "swiper";
+import "swiper/css";
+import "swiper/css/pagination";
+const modules = [Pagination];
 </script>
 

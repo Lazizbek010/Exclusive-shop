@@ -90,4 +90,48 @@
             }
         }
     }
+
+    .team {
+        position: relative;
+        &__item {
+            h1 {
+                font-family: 'Inter';
+                letter-spacing: 0.04em;
+                margin-bottom: 8px;
+                @include font(32, 30, 500, $dark-color)
+            }
+            p{
+                margin-bottom: 16px;
+            }
+        }
+        &__icons{
+            display: flex;
+            gap: 16px;
+        }
+        &__img {
+            background: $secondary-color;
+            border-radius: 4px;
+            margin-bottom: 32px;
+            width: 370px;
+            height: 430px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: inherit;
+                height: auto;
+            }
+        }
+        .swiper{
+            position: initial !important;
+
+        }
+        .swiper-pagination{
+            bottom: -62px;
+        }
+    }
+    .services{
+        margin-top: 200px;
+        justify-content: center;
+    }
 }
