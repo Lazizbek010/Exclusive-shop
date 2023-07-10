@@ -65,6 +65,7 @@ const router = createRouter({
             name: 'error',
             component: Error,
         },
+     
 
   ]
 })
