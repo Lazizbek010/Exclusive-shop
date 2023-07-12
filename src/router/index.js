@@ -1,16 +1,18 @@
 import { createRouter, createWebHistory } from 'vue-router';
+
 import HomeView from '../views/HomeView.vue';
 import ContactView from '../views/ContactView.vue';
 import AboutView from '../views/AboutView.vue';
+import ErrorView from '../views/ErrorView.vue';
+import AccountView from '../views/AccountView.vue';
+
+
 import Wishlist from '../views/WishlistView.vue';
-import Cart from '../views/CartView.vue';
 
 import ProdactDetalis from '../views/ProductDetailView.vue'
-
+import Cart from '../views/CartView.vue';
 import LogIn from '../views/LogInView.vue';
-
 import SignUp from '../views/SignUpView.vue';
-import Error from '../views/ErrorView.vue';
 
 
 
@@ -63,7 +65,13 @@ const router = createRouter({
 
             path: '/error',
             name: 'error',
-            component: Error,
+            component: ErrorView,
+        },
+        {
+
+            path: '/account',
+            name: 'account',
+            component: AccountView,
         },
 
   ]

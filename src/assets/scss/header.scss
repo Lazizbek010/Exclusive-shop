@@ -88,6 +88,9 @@
             button{
                 background: transparent;
             }
+            a, button{
+                cursor: pointer;
+            }
         }
     }
 }
