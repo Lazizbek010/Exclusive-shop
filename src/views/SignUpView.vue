@@ -1,7 +1,5 @@
 <template>
     <div>
-
-
         <div class="login">
             <div class="login__right">
                 <img src="../assets/images/png/Side Image.png" alt="">
