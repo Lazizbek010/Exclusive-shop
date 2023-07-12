@@ -32,7 +32,13 @@
                   <h4 class="min">56</h4>
                 </div>
               </div>
+              <div class="Flash__right_child_img">
+
+                <img src="../assets/images/svg/Fill With Left Arrow.svg" alt="">
+                <img src="../assets/images/svg/Fill With Right Arrow.svg" alt="">
+              </div>
             </div>
+
           </div>
           <div class="Flash__slider">
             <div class="Flash__child">
@@ -158,6 +164,28 @@
           </div>
           <div class="Flash__btn">View All Products</div>
 
+        </div>
+      </section>
+
+
+      <section>
+        <div class="Categories ">
+          <div class="Categories__top">
+            <div class="Categories__left_child">
+              <div class="today">
+                <div class="today__bor"></div>
+                <p class="today__text">Categories</p>
+              </div>
+              <h1> Browse By Category</h1>
+            </div>
+            <div class="Categories__right_child">
+
+              <img src="../assets/images/svg/Fill With Left Arrow.svg" alt="">
+              <img src="../assets/images/svg/Fill With Right Arrow.svg" alt="">
+            </div>
+
+          </div>
+          
         </div>
       </section>
     </div>

@@ -227,31 +227,21 @@
 
     margin-top: 140px;
 
+
     .first-letter {
-        .today {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            margin-bottom: 24px;
-
-            &__bor {
-                width: 8px;
-                border-radius: 2px;
-                background: $secondary2-color;
-                padding: 14px 7px;
-            }
-
-            &__text {
-                color: $secondary2-color;
-                @include font(16, 20, 600, $secondary2-color)
-            }
-        }
 
         .Flash__sales {
             display: flex;
             align-items: center;
             gap: 100px;
             margin-bottom: 40px;
+
+            .Flash__right_child_img {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                margin-left: 200px;
+            }
 
             h1 {
                 @include font(36, 48, 600, $dark-color);
@@ -284,6 +274,8 @@
         align-items: center;
         overflow-x: auto;
         gap: 40px;
+
+
 
         .Flash__child {
             .Flash__Card {
@@ -356,7 +348,7 @@
         }
 
         margin-bottom: 60px;
-        
+
     }
 
     .Flash__btn {
@@ -369,6 +361,7 @@
         background: $secondary2-color;
         text-align: center;
     }
+
     border-bottom: 1px solid $text1-color;
     padding-bottom: 60px;
 }
@@ -410,6 +403,7 @@
             align-items: center;
             gap: 20px;
             margin-bottom: 40px;
+
             span {
                 width: 72px;
                 height: 72px;
@@ -418,13 +412,15 @@
                 background: $primary-color;
                 @include font(16, 20, 600, $dark-color);
                 text-align: center;
-                p{
+
+                p {
                     @include font(11, 18, 400, $dark-color)
                 }
             }
 
         }
-        button{
+
+        button {
             padding: 16px 48px;
             background: $btn-color;
             @include font(16, 24, 600, $primary-color);
@@ -433,12 +429,52 @@
     }
 
     .main-right__child {
-        
+
         img {
             width: 600px;
             height: 430px;
             padding: 37px 44px 43px 0px;
         }
+    }
+}
+
+.today {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 24px;
+
+    &__bor {
+        width: 8px;
+        border-radius: 2px;
+        background: $secondary2-color;
+        padding: 14px 7px;
+    }
+
+    &__text {
+        color: $secondary2-color;
+        @include font(16, 20, 600, $secondary2-color)
+    }
+}
+
+
+// ========== Categories =======
+.Categories {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+
+    h1 {
+        @include font(36, 48, 600, $dark-color);
+        word-spacing: 4%;
+    }
+
+
+    .Categories__right_child {
+        align-items: center;
+        display: flex;
+        gap: 8px;
+        margin-bottom: 60px;
     }
 }
 
