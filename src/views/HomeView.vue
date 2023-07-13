@@ -4,11 +4,11 @@
 
       <section>
         <div class="Flash">
+          <div class="today">
+            <div class="today__bor"></div>
+            <p class="today__text">Today’s</p>
+          </div>
           <div class="first-letter">
-            <div class="today">
-              <div class="today__bor"></div>
-              <p class="today__text">Today’s</p>
-            </div>
             <div class="Flash__sales">
               <h1>Flash Sales</h1>
               <div class="times">
@@ -32,11 +32,11 @@
                   <h4 class="min">56</h4>
                 </div>
               </div>
-              <div class="Flash__right_child_img">
+            </div>
+            <div class="Flash__right_child_img">
 
-                <img src="../assets/images/svg/Fill With Left Arrow.svg" alt="">
-                <img src="../assets/images/svg/Fill With Right Arrow.svg" alt="">
-              </div>
+              <img src="../assets/images/svg/Fill With Left Arrow.svg" alt="">
+              <img src="../assets/images/svg/Fill With Right Arrow.svg" alt="">
             </div>
 
           </div>
@@ -65,7 +65,7 @@
                 </div>
               </div>
             </div>
-            <div class="Flash__child">
+            <div class="Flash__child child2">
               <div class="Flash__Card">
                 <div class="firstLetter">
                   <h1 class="foiz">-35%</h1>
@@ -77,7 +77,7 @@
 
                 </div>
                 <div class="Flash__img">
-                  <img src="../assets/images/png/station.png" alt="">
+                  <img src="../assets/images/png/klavyatura.png" alt="">
                 </div>
               </div>
               <div class="Flash__text">
@@ -101,7 +101,7 @@
 
                 </div>
                 <div class="Flash__img">
-                  <img src="../assets/images/png/station.png" alt="">
+                  <img src="../assets/images/png/watchTv.png" alt="">
                 </div>
               </div>
               <div class="Flash__text">
@@ -125,7 +125,7 @@
 
                 </div>
                 <div class="Flash__img">
-                  <img src="../assets/images/png/station.png" alt="">
+                  <img src="../assets/images/png/stol.png" alt="">
                 </div>
               </div>
               <div class="Flash__text">
@@ -149,7 +149,7 @@
 
                 </div>
                 <div class="Flash__img">
-                  <img src="../assets/images/png/station.png" alt="">
+                  <img src="../assets/images/png/stol.png" alt="">
                 </div>
               </div>
               <div class="Flash__text">
@@ -185,8 +185,157 @@
             </div>
 
           </div>
-          
+
+          <div class="Categories__button">
+            <div class="Categories__bottom_child">
+              <img src="../assets/images/svg/CellPhone.svg" alt="">
+              <h6>Phones</h6>
+            </div>
+            <div class="Categories__bottom_child">
+              <img src="../assets/images/svg/Category-Computer.svg" alt="">
+              <h6>Computers</h6>
+            </div>
+            <div class="Categories__bottom_child">
+              <img src="../assets/images/svg/Category-SmartWatch.svg" alt="">
+              <h6>SmartWatch</h6>
+            </div>
+            <div class="Categories__bottom_child">
+              <img src="../assets/images/svg/Category-Camera.svg" alt="">
+              <h6>Camera</h6>
+            </div>
+            <div class="Categories__bottom_child">
+              <img src="../assets/images/svg/Category-Headphone.svg" alt="">
+              <h6>HeadPhones</h6>
+            </div>
+            <div class="Categories__bottom_child">
+              <img src="../assets/images/svg/CellPhone.svg" alt="">
+              <h6>Gaming</h6>
+            </div>
+          </div>
         </div>
+      </section>
+
+
+
+      <section>
+        <div class="Selling">
+          <div class="Selling__top">
+            <div class="Selling__left">
+              <div class="today">
+                <div class="today__bor"></div>
+                <p class="today__text">This Month</p>
+              </div>
+              <h1> Best Selling Products</h1>
+            </div>
+            <div class="Selling__right">
+
+              <div class="Flash__btn">View All </div>
+            </div>
+          </div>
+          <div class="Selling__bottom">
+            <div class="Flash__slider">
+              <div class="Flash__child">
+                <div class="Flash__Card">
+                  <div class="firstLetter">
+                    <h1 class="foi"></h1>
+
+                    <div class="svgImgs">
+                      <img src="../assets/images/svg/Fill Heart.svg" alt="">
+                      <img src="../assets/images/svg/Fill Eye.svg" alt="">
+                    </div>
+
+                  </div>
+                  <div class="Flash__img">
+                    <img src="../assets/images/png/flash.png" alt="">
+                  </div>
+                </div>
+                <div class="Flash__text">
+                  <h1 class="Flash__title">The north coat</h1>
+                  <p>$260<span>$360</span></p>
+                  <div class="fedbag">
+                    <img src="../assets/images/png/Five star.png" alt="">
+                    <h4>(65)</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="Flash__child">
+                <div class="Flash__Card">
+                  <div class="firstLetter">
+                    <h1 class="foi"></h1>
+
+                    <div class="svgImgs">
+                      <img src="../assets/images/svg/Fill Heart.svg" alt="">
+                      <img src="../assets/images/svg/Fill Eye.svg" alt="">
+                    </div>
+
+                  </div>
+                  <div class="Flash__img">
+                    <img src="../assets/images/png/sumka.png" alt="">
+                  </div>
+                </div>
+                <div class="Flash__text">
+                  <h1 class="Flash__title">Gucci duffle bagd</h1>
+                  <p>$960<span>$1160</span></p>
+                  <div class="fedbag">
+                    <img src="../assets/images/png/Five star.png" alt="">
+                    <h4>(65)</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="Flash__child">
+                <div class="Flash__Card">
+                  <div class="firstLetter">
+                    <h1 class="foi"></h1>
+
+                    <div class="svgImgs">
+                      <img src="../assets/images/svg/Fill Heart.svg" alt="">
+                      <img src="../assets/images/svg/Fill Eye.svg" alt="">
+                    </div>
+
+                  </div>
+                  <div class="Flash__img">
+                    <img src="../assets/images/png/bass.png" alt="">
+                  </div>
+                </div>
+                <div class="Flash__text">
+                  <h1 class="Flash__title">RGB liquid CPU Cooleror</h1>
+                  <p>$160<span>$170</span></p>
+                  <div class="fedbag">
+                    <img src="../assets/images/png/Five star.png" alt="">
+                    <h4>(65)</h4>
+                  </div>
+                </div>
+              </div>
+
+              <div class="Flash__child">
+                <div class="Flash__Card">
+                  <div class="firstLetter">
+                    <h1 class="foi"></h1>
+
+                    <div class="svgImgs">
+                      <img src="../assets/images/svg/Fill Heart.svg" alt="">
+                      <img src="../assets/images/svg/Fill Eye.svg" alt="">
+                    </div>
+
+                  </div>
+                  <div class="Flash__img">
+                    <img src="../assets/images/png/jovon.png" alt="">
+                  </div>
+                </div>
+                <div class="Flash__text">
+                  <h1 class="Flash__title">Small BookSelf</h1>
+                  <p>$360<span></span></p>
+                  <div class="fedbag">
+                    <img src="../assets/images/png/Five star.png" alt="">
+                    <h4>(65)</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
       </section>
     </div>
     <main class="main-categories__parent container">
