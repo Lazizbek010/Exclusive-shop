@@ -1,0 +1,188 @@
+.checkout {
+    padding: 80px 0 140px;
+
+    &__title {
+        margin-bottom: 48px;
+        font-family: Inter;
+        letter-spacing: 1.44px;
+        @include font(36, 30, 500, $dark-color)
+    }
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    &__form {
+        width: 470px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+
+        &-input {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+
+            label {
+                opacity: .4;
+
+                span {
+                    color: $secondary2-color;
+                }
+            }
+
+            input {
+                padding: 13px 16px;
+                width: 100%;
+                border-radius: 4px;
+                background: $secondary-color;
+                @include font(16, 24, 400, $dark-color);
+                opacity: 0.5;
+            }
+        }
+
+        &-checked {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+
+            input[type=checkbox] {
+                position: relative;
+                cursor: pointer;
+            }
+
+            input[type=checkbox]:before {
+                content: "";
+                display: block;
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                border: 2px solid $secondary2-color;
+                border-radius: 6px;
+                background-color: $primary-color;
+            }
+
+            input[type=checkbox]:checked:before {
+                background: $secondary2-color;
+            }
+
+            input[type=checkbox]:checked:after {
+                content: "";
+                display: block;
+                width: 6px;
+                height: 12px;
+                border: solid $primary-color;
+                border-width: 0 2px 2px 0;
+                -webkit-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+                position: absolute;
+                top: -3px;
+                left: 3px;
+            }
+        }
+    }
+
+    &__price {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        width: 527px;
+        margin-top: 20px;
+
+        &-products {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            width: 425px;
+        }
+
+        &-item {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+
+            .img {
+                width: 54px;
+                height: 54px;
+                display: grid;
+                place-items: center;
+
+                img {
+                    width: auto;
+                    height: auto;
+                }
+            }
+
+            .price {
+                display: flex;
+                justify-content: space-between;
+                flex-grow: 1;
+            }
+        }
+
+        &-total {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            width: 422px;
+
+            .item {
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 16px;
+                border-bottom: 1px solid;
+                border-color: rgba($color: $dark-color, $alpha: .4);
+            }
+        }
+
+        &-bank {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .check {
+                display: flex;
+                align-items: center;
+                gap: 16px;
+                input[type='radio'] {
+                        
+                }
+                input[type='radio']:after {
+                    width: 24px;
+                    height: 24px;
+                    border-radius: 24px;
+                    top: -2px;
+                    left: -1px;
+                    position: relative;
+                    background-color: var(--white-color);
+                    content: '';
+                    display: inline-block;
+                    visibility: visible;
+                    border: 1px solid var(--silver-color);
+                }
+
+                input[type='radio']:checked:after {
+                    width: 24px;
+                    height: 24px;
+                    border-radius: 24px;
+                    top: -2px;
+                    left: -1px;
+                    position: relative;
+                    background-color: var(--tomato-color);
+                    content: '';
+                    display: inline-block;
+                    visibility: visible;
+                    border: 1px solid var(--silver-color);
+                }
+            }
+        }
+    }
+}

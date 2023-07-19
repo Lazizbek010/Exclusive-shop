@@ -5,6 +5,7 @@ import ContactView from '../views/ContactView.vue';
 import AboutView from '../views/AboutView.vue';
 import ErrorView from '../views/ErrorView.vue';
 import AccountView from '../views/AccountView.vue';
+import CheckoutView from '../views/CheckoutView.vue';
 
 
 import Wishlist from '../views/WishlistView.vue';
@@ -69,6 +70,12 @@ const router = createRouter({
         },
         {
 
+            path: '/checkout',
+            name: 'checkout',
+            component: CheckoutView,
+        },
+        {
+
             path: '/account',
             name: 'account',
             component: AccountView,
@@ -77,5 +84,17 @@ const router = createRouter({
   ]
 })
 
+// router.beforeEach((to, from, next) => {
+//     const token = localStorage.getItem('token')
+//     if(!token && to.name !== 'home') {
+//       next({name: 'home'})
+//     } else {
+//       if(token) {
+//         next()
+//       }
+//     }
+//     next()
+//   })
+  
 
 export default router
