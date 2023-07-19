@@ -59,8 +59,8 @@
                 content: "";
                 display: block;
                 position: absolute;
-                width: 20px;
-                height: 20px;
+                width: 18px;
+                height: 18px;
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
@@ -76,15 +76,15 @@
             input[type=checkbox]:checked:after {
                 content: "";
                 display: block;
-                width: 6px;
-                height: 12px;
+                width: 5px;
+                height: 11px;
                 border: solid $primary-color;
                 border-width: 0 2px 2px 0;
                 -webkit-transform: rotate(45deg);
                 -ms-transform: rotate(45deg);
                 transform: rotate(45deg);
                 position: absolute;
-                top: -3px;
+                top: -1px;
                 left: 3px;
             }
         }
@@ -96,6 +96,44 @@
         gap: 32px;
         width: 527px;
         margin-top: 20px;
+
+        input[type=radio] {
+            position: relative;
+        }
+
+        input[type=radio]::after {
+            width: 21px;
+            height: 21px;
+            border-radius: 50%;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            background-color: $primary-color;
+            content: '';
+            display: inline-block;
+            visibility: visible;
+            border: 3px solid $dark-color;
+        }
+
+        input[type=radio]:checked::after {
+            background-color: $dark-color;
+        }
+
+        input[type=radio]::before {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            background-color: transparent;
+            content: '';
+            display: block;
+            border: 4.5px solid $primary-color;
+            z-index: 2;
+        }
 
         &-products {
             display: flex;
@@ -147,41 +185,52 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            width: 422px;
 
             .check {
                 display: flex;
                 align-items: center;
                 gap: 16px;
-                input[type='radio'] {
-                        
-                }
-                input[type='radio']:after {
-                    width: 24px;
-                    height: 24px;
-                    border-radius: 24px;
-                    top: -2px;
-                    left: -1px;
-                    position: relative;
-                    background-color: var(--white-color);
-                    content: '';
-                    display: inline-block;
-                    visibility: visible;
-                    border: 1px solid var(--silver-color);
-                }
+            }
 
-                input[type='radio']:checked:after {
-                    width: 24px;
-                    height: 24px;
-                    border-radius: 24px;
-                    top: -2px;
-                    left: -1px;
-                    position: relative;
-                    background-color: var(--tomato-color);
-                    content: '';
-                    display: inline-block;
-                    visibility: visible;
-                    border: 1px solid var(--silver-color);
+            .carts {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+
+                &__img {
+                    width: 42px;
+                    height: 28px;
+
+                    img {
+                        width: inherit;
+                        height: auto;
+                        object-fit: cover;
+                    }
                 }
+            }
+        }
+
+        &-cash {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        &-apply {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            width: 527px;
+
+            .code {
+                padding-left: 24px;
+                background: transparent;
+                flex-grow: 1;
+                border: 1px solid $dark-color;
+                color: rgba($color: $dark-color, $alpha: 0.5);
+                text-align: start;
             }
         }
     }

@@ -107,15 +107,15 @@
             </div>
           </div>
           <div class="checkout__price-cash">
-            <input type="radio" id="Bank" name="Bank" />
-            <label class="pop-16-24-400" for="Bank">Cash on delivery</label>
+            <input type="radio" id="cash" name="cash" />
+            <label class="pop-16-24-400" for="cash">Cash on delivery</label>
           </div>
           <div class="checkout__price-apply">
-            <button>Coupon Code</button>
-            <button>Apply Coupon</button>
+            <button class="btn code">Coupon Code</button>
+            <button class="btn">Apply Coupon</button>
           </div>
           <div class="checkout__price-order">
-            <button>Place Order</button>
+            <button class="btn">Place Order</button>
           </div>
         </div>
       </div>
