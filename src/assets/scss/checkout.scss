@@ -223,15 +223,6 @@
             align-items: center;
             gap: 16px;
             width: 527px;
-
-            .code {
-                padding-left: 24px;
-                background: transparent;
-                flex-grow: 1;
-                border: 1px solid $dark-color;
-                color: rgba($color: $dark-color, $alpha: 0.5);
-                text-align: start;
-            }
         }
     }
 }

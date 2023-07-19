@@ -48,6 +48,14 @@
     padding: 16px 48px;
     @include font(16, 24, 500, $text-color)
 }
+.btn-white {
+    padding-left: 24px;
+    background: transparent;
+    flex-grow: 1;
+    border: 1px solid $dark-color;
+    color: rgba($color: $dark-color, $alpha: 0.5);
+    text-align: start;
+}
 button{
     cursor: pointer;
 }

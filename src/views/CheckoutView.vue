@@ -111,7 +111,7 @@
             <label class="pop-16-24-400" for="cash">Cash on delivery</label>
           </div>
           <div class="checkout__price-apply">
-            <button class="btn code">Coupon Code</button>
+            <button class="btn btn-white">Coupon Code</button>
             <button class="btn">Apply Coupon</button>
           </div>
           <div class="checkout__price-order">
