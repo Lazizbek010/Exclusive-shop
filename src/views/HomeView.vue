@@ -631,7 +631,6 @@
         <div class="container">
           <div class="arrival__content">
             <div class="arrival-content__top">
-              <SectionTop />
             </div>
 
             <div class="arrival-content__bottom">
@@ -688,9 +687,7 @@
 </template>
 
 <script setup>
-import SectionTop from "../components/SectionTop.vue";
 import ServicesComponent from "../components/ServiceComponent.vue";
-import AccountComponent from "../components/AccountComponent.vue";
 </script>
 
 

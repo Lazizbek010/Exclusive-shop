@@ -18,23 +18,23 @@
 /* width */
 ::-webkit-scrollbar {
     width: 8px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
+}
+
+/* Track */
+::-webkit-scrollbar-track {
     background: transparent;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
     background: red;
     border-radius: 12px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
     background: rgba(180, 4, 4, 0.692);
-  }
+}
 
 .container {
     max-width: 1200px;
@@ -43,12 +43,22 @@
 }
 
 .btn {
-    background: $btn-color;
+    background: $secondary2-color;
     border-radius: 4px;
     padding: 16px 48px;
     @include font(16, 24, 500, $text-color)
 }
-
+.btn-white {
+    padding-left: 24px;
+    background: transparent;
+    flex-grow: 1;
+    border: 1px solid $dark-color;
+    color: rgba($color: $dark-color, $alpha: 0.5);
+    text-align: start;
+}
+button{
+    cursor: pointer;
+}
 .pop-14-21-400 {
     @include font(14, 21, 400, $text-color);
 }
@@ -65,6 +75,13 @@
     @include font(16, 24, 500, $text-color);
 }
 
+// .pop-16-24-500 {
+//     @include font(16, 24, 500, $dark-color)
+// }
+
+// .pop-16-24-500 {
+//     @include font(16, 24, 500, $secondary2-color)
+// }
 .pop-16-20-600 {
     @include font(16, 24, 600, $secondary2-color);
 }
@@ -81,14 +98,6 @@
     @include font(12, 18, 500, $dark-color)
 }
 
-.pop-16-24-500 {
-    @include font(16, 24, 500, $dark-color)
-}
-
-.pop-16-24-500 {
-    @include font(16, 24, 500, $secondary2-color)
-}
-
 .inter-32-30-700 {
     @include font(32, 30, 700, $dark-color)
 }
@@ -100,6 +109,7 @@
 .inter-24-24-700 {
     @include font(24, 24, 700, $dark-color)
 }
+
 .inter-24-24-600 {
     @include font(24, 24, 600, $text-color)
 }
@@ -132,18 +142,20 @@
     }
 }
 
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
     width: 14px;
     height: 14px;
     background: rgba($color: $dark-color, $alpha: 0.3);
     border: 2px solid transparent;
     position: relative;
-   
+
 }
-.swiper-pagination-bullet-active{
+
+.swiper-pagination-bullet-active {
     background: $secondary2-color;
     border: 2px solid #bfbfbf;
-    &::after{
+
+    &::after {
         content: "";
         display: block;
         width: 9px;

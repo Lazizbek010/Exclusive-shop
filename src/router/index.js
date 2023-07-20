@@ -1,16 +1,19 @@
 import { createRouter, createWebHistory } from 'vue-router';
+
 import HomeView from '../views/HomeView.vue';
 import ContactView from '../views/ContactView.vue';
 import AboutView from '../views/AboutView.vue';
+import ErrorView from '../views/ErrorView.vue';
+import AccountView from '../views/AccountView.vue';
+import CheckoutView from '../views/CheckoutView.vue';
+
+
 import Wishlist from '../views/WishlistView.vue';
-import Cart from '../views/CartView.vue';
 
 import ProdactDetalis from '../views/ProductDetailView.vue'
-
+import Cart from '../views/CartView.vue';
 import LogIn from '../views/LogInView.vue';
-
 import SignUp from '../views/SignUpView.vue';
-import Error from '../views/ErrorView.vue';
 
 
 
@@ -63,12 +66,36 @@ const router = createRouter({
 
             path: '/error',
             name: 'error',
-            component: Error,
+            component: ErrorView,
+        },
+        {
+
+            path: '/checkout',
+            name: 'checkout',
+            component: CheckoutView,
+        },
+        {
+
+            path: '/account',
+            name: 'account',
+            component: AccountView,
         },
      
 
   ]
 })
 
+// router.beforeEach((to, from, next) => {
+//     const token = localStorage.getItem('token')
+//     if(!token && to.name !== 'home') {
+//       next({name: 'home'})
+//     } else {
+//       if(token) {
+//         next()
+//       }
+//     }
+//     next()
+//   })
+  
 
 export default router
