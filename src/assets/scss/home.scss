@@ -1,3 +1,7 @@
+
+.arrival__content{
+    margin-top: 140px;
+}
 .arrival-content__bottom {
     margin-top: 60px;
     display: grid;
@@ -244,12 +248,7 @@
             gap: 100px;
             margin-bottom: 40px;
 
-            .Flash__right_child_img {
-                display: flex;
-                align-items: center;
-                gap: 8px;
-                // margin-left: 200px;
-            }
+
 
             h1 {
                 @include font(36, 48, 600, $dark-color);
@@ -280,106 +279,115 @@
 
 }
 
-    .Flash__slider {
-        margin-top: 40px;
-        display: flex;
-        align-items: center;
-        overflow-x: auto;
-        gap: 40px;
+.Flash__slider {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    gap: 40px;
 
 
 
-        .Flash__child {
-            .Flash__Card {
-                width: 270px;
-                background: $secondary-color;
-                padding: 12px;
-                border-radius: 3px;
+    .Flash__child {
+        .Flash__Card {
+            width: 270px;
+            background: $secondary-color;
+            padding: 12px;
+            border-radius: 3px;
 
-                .firstLetter {
+            .firstLetter {
 
-                    display: flex;
-                    align-items: start;
-                    justify-content: space-between;
+                display: flex;
+                align-items: start;
+                justify-content: space-between;
 
-                    .foiz {
-                        @include font(12, 18, 400, $text-color);
-                        background: $secondary2-color;
+                .foiz {
+                    @include font(12, 18, 400, $text-color);
+                    background: $secondary2-color;
 
-                        padding: 4px 12px;
-                        border-radius: 4px;
-                    }
-
-                    .svgImgs {
-                        display: grid;
-                        grid-template-columns: repeat(1, 1fr);
-                        row-gap: 8px;
-                    }
+                    padding: 4px 12px;
+                    border-radius: 4px;
                 }
 
-                .Flash__img {
-                    width: 172px;
-                    height: 153px;
-
-                    img {
-                        margin: -40px 49px 0 20px;
-                    }
+                .svgImgs {
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    row-gap: 8px;
                 }
             }
 
-            .Flash__text {
-                margin-top: 16px;
+            .Flash__img {
+                width: 172px;
+                height: 153px;
 
-                .Flash__title {
-                    @include font(16, 24, 500, $dark-color);
+                img {
+                    margin: -40px 49px 0 20px;
+                }
+            }
+        }
+
+        .Flash__text {
+            margin-top: 16px;
+
+            .Flash__title {
+                @include font(16, 24, 500, $dark-color);
+                margin-top: 8px;
+            }
+
+            p {
+
+                @include font(16, 24, 500, $secondary2-color);
+
+                span {
                     margin-top: 8px;
-                }
-
-                p {
-
-                    @include font(16, 24, 500, $secondary2-color);
-
-                    span {
-                        margin-top: 8px;
-                        padding-left: 12px;
-                        @include font(16, 24, 500, $dark-color);
-                        opacity: 0.6;
-                        text-decoration: line-through;
-                    }
-                }
-
-                .fedbag {
-                    display: flex;
-                    align-items: center;
-                    gap: 8px;
-
-                    h4 {
-                        opacity: 0.6;
-                    }
+                    padding-left: 12px;
+                    @include font(16, 24, 500, $dark-color);
+                    opacity: 0.6;
+                    text-decoration: line-through;
                 }
             }
-        }
 
-        margin-bottom: 60px;
+            .fedbag {
+                display: flex;
+                align-items: center;
+                gap: 8px;
 
-    }
-
-    .child2 {
-
-        .Flash__child {
-            .Flash__Card {
-                .Flash__img {
-                    width: 191px;
-                    height: 101px;
-
-                    img {
-                        margin: 55px 40px 94px 39px;
-
-                    }
+                h4 {
+                    opacity: 0.6;
                 }
             }
         }
     }
+
+    margin-bottom: 60px;
+
+}
+
+ 
+.child2 {
+
+    .Flash__child {
+        .Flash__Card {
+            .Flash__img {
+                width: 191px;
+                height: 101px;
+
+                img {
+                    margin: 55px 40px 94px 39px;
+
+                }
+            }
+        }
+    }
+}
+
+.Flash__right_child_img {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    // margin-left: 200px;
+}
+
 .Flash__btn {
     @include font(16, 24, 500, $primary-color);
     padding: 16px 48px;
@@ -562,14 +570,14 @@
     display: grid;
     gap: 88px;
     grid-template-columns: repeat(auto-fit, minmax(249px, 1fr));
-
+    margin: 140px 0;
+    text-align: center;
     .Flash__card {
-        text-align: center;
 
         &-img {
             width: 80px;
             height: 80px;
-            margin: 0 auto 24px;
+            margin: 0 auto ;
         }
     }
 
@@ -577,6 +585,7 @@
         h1 {
             @include font(20, 28, 600, $dark-color);
             margin-bottom: 8px;
+            margin-top: 24px;
         }
 
         p {

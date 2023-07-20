@@ -2,6 +2,32 @@
   <div class="home">
     <div class="container">
 
+
+      <div class="vaucher">
+        <div class="vaucher__left">
+          <select id="">
+            <option value="">Woman’s Fashion</option>
+            <option value="">Men’s Fashion</option>
+          </select>
+          <select id="">
+            <option value="">Woman’s Fashion</option>
+            <option value="">Men’s Fashion</option>
+          </select>
+
+          <ul class="list">
+            <li><a href="#">Electronics</a></li>
+            <li><a href="#">Home & Lifestyle</a></li>
+            <li><a href="#">Medicine</a></li>
+            <li><a href="#">Sports & Outdoor</a></li>
+            <li><a href="#">Baby’s & Toys</a></li>
+            <li><a href="#">Groceries & Pets</a></li>
+            <li><a href="#">Health & Beauty</a></li>
+          </ul>
+        </div>
+        <div class="vaucher__right"></div>
+      </div>
+
+
       <section>
         <div class="Flash">
           <div class="today">
@@ -368,6 +394,239 @@
         </div>
 
       </div>
+
+
+
+      <section>
+        <div class="Exsplore">
+          <div class="Flash">
+            <div class="today">
+              <div class="today__bor"></div>
+              <p class="today__text">Our Products</p>
+            </div>
+            <div class="first-letter">
+              <div class="Flash__sales">
+                <h1>Explore Our Products </h1>
+
+              </div>
+              <div class="Flash__right_child_img">
+
+                <img src="../assets/images/svg/Fill With Left Arrow.svg" alt="">
+                <img src="../assets/images/svg/Fill With Right Arrow.svg" alt="">
+              </div>
+
+
+
+
+
+            </div>
+            <div class="Flash__slider">
+              <div class="Flash__child">
+                <div class="Flash__Card">
+                  <div class="firstLetter">
+                    <h1 class="foi"></h1>
+
+                    <div class="svgImgs">
+                      <img src="../assets/images/svg/Fill Heart.svg" alt="">
+                      <img src="../assets/images/svg/Fill Eye.svg" alt="">
+                    </div>
+
+                  </div>
+                  <div class="Flash__img">
+                    <img src="../assets/images/png/dog.png" alt="">
+                  </div>
+                </div>
+                <div class="Flash__text">
+                  <h1 class="Flash__title">Breed Dry Dog Food</h1>
+                  <div class="fedbag">
+                    <p>$960<span>$160</span></p>
+                    <img src="../assets/images/png/Five star.png" alt="">
+                    <h4>(88)</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="Flash__child child2">
+                <div class="Flash__Card">
+                  <div class="firstLetter">
+                    <h1 class="foi"></h1>
+
+                    <div class="svgImgs">
+                      <img src="../assets/images/svg/Fill Heart.svg" alt="">
+                      <img src="../assets/images/svg/Fill Eye.svg" alt="">
+                    </div>
+
+                  </div>
+                  <div class="Flash__img">
+                    <img src="../assets/images/png/Camera.png" alt="">
+                  </div>
+                </div>
+                <div class="Flash__text">
+                  <h1 class="Flash__title">CANON EOS DSLR Camera</h1>
+                  <div class="fedbag">
+                    <p>$120<span>$160</span></p>
+                    <img src="../assets/images/png/Five star.png" alt="">
+                    <h4>(88)</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="Flash__child">
+                <div class="Flash__Card">
+                  <div class="firstLetter">
+                    <h1 class="foi"></h1>
+
+                    <div class="svgImgs">
+                      <img src="../assets/images/svg/Fill Heart.svg" alt="">
+                      <img src="../assets/images/svg/Fill Eye.svg" alt="">
+                    </div>
+
+                  </div>
+                  <div class="Flash__img">
+                    <img src="../assets/images/png/laptop.png" alt="">
+                  </div>
+                </div>
+                <div class="Flash__text">
+                  <h1 class="Flash__title">ASUS FHD Gaming Laptop</h1>
+                  <div class="fedbag">
+                    <p>$120<span>$160</span></p>
+                    <img src="../assets/images/png/Five star.png" alt="">
+                    <h4>(88)</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="Flash__child">
+                <div class="Flash__Card">
+                  <div class="firstLetter">
+                    <h1 class="foi"></h1>
+
+                    <div class="svgImgs">
+                      <img src="../assets/images/svg/Fill Heart.svg" alt="">
+                      <img src="../assets/images/svg/Fill Eye.svg" alt="">
+                    </div>
+
+                  </div>
+                  <div class="Flash__img">
+                    <img src="../assets/images/png/curolog.png" alt="">
+                  </div>
+                </div>
+                <div class="Flash__text">
+                  <h1 class="Flash__title">Curology Product Set</h1>
+                  <div class="fedbag">
+                    <p>$370<span>$160</span></p>
+                    <img src="../assets/images/png/Five star.png" alt="">
+                    <h4>(88)</h4>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="Flash__slider">
+              <div class="Flash__child">
+                <div class="Flash__Card">
+                  <div class="firstLetter">
+                    <h1 class="foi"></h1>
+
+                    <div class="svgImgs">
+                      <img src="../assets/images/svg/Fill Heart.svg" alt="">
+                      <img src="../assets/images/svg/Fill Eye.svg" alt="">
+                    </div>
+
+                  </div>
+                  <div class="Flash__img">
+                    <img src="../assets/images/png/Mercedes.png" alt="">
+                  </div>
+                </div>
+                <div class="Flash__text">
+                  <h1 class="Flash__title">Jr. Zoom Soccer Cleats</h1>
+                  <div class="fedbag">
+                    <p>$960<span>$160</span></p>
+                    <img src="../assets/images/png/Five star.png" alt="">
+                    <h4>(88)</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="Flash__child child2">
+                <div class="Flash__Card">
+                  <div class="firstLetter">
+                    <h1 class="foi"></h1>
+
+                    <div class="svgImgs">
+                      <img src="../assets/images/svg/Fill Heart.svg" alt="">
+                      <img src="../assets/images/svg/Fill Eye.svg" alt="">
+                    </div>
+
+                  </div>
+                  <div class="Flash__img">
+                    <img src="../assets/images/png/Copa_Sense 1.png" alt="">
+                  </div>
+                </div>
+                <div class="Flash__text">
+                  <h1 class="Flash__title">GP11 Shooter USB Gamepad</h1>
+                  <div class="fedbag">
+                    <p>$120<span>$160</span></p>
+                    <img src="../assets/images/png/Five star.png" alt="">
+                    <h4>(88)</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="Flash__child">
+                <div class="Flash__Card">
+                  <div class="firstLetter">
+                    <h1 class="foi"></h1>
+
+                    <div class="svgImgs">
+                      <img src="../assets/images/svg/Fill Heart.svg" alt="">
+                      <img src="../assets/images/svg/Fill Eye.svg" alt="">
+                    </div>
+
+                  </div>
+                  <div class="Flash__img">
+                    <img src="../assets/images/png/Play.png" alt="">
+                  </div>
+                </div>
+                <div class="Flash__text">
+                  <h1 class="Flash__title">Quilted Satin Jacketor</h1>
+                  <div class="fedbag">
+                    <p>$120<span>$160</span></p>
+                    <img src="../assets/images/png/Five star.png" alt="">
+                    <h4>(88)</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="Flash__child">
+                <div class="Flash__Card">
+                  <div class="firstLetter">
+                    <h1 class="foi"></h1>
+
+                    <div class="svgImgs">
+                      <img src="../assets/images/svg/Fill Heart.svg" alt="">
+                      <img src="../assets/images/svg/Fill Eye.svg" alt="">
+                    </div>
+
+                  </div>
+                  <div class="Flash__img">
+                    <img src="../assets/images/png/jacket 1.png" alt="">
+                  </div>
+                </div>
+                <div class="Flash__text">
+                  <h1 class="Flash__title">Quilted Satin Jacket </h1>
+                  <div class="fedbag">
+                    <p>$370<span>$160</span></p>
+                    <img src="../assets/images/png/Five star.png" alt="">
+                    <h4>(88)</h4>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="Flash__btn">View All Products</div>
+
+          </div>
+        </div>
+      </section>
+
+
+
+
       <section id="arrival">
         <div class="container">
           <div class="arrival__content">
@@ -387,16 +646,6 @@
                 </div>
               </div>
 
-              <div class="arrival-bottom__left">
-                <img class="arrival-bottom__img" src="../assets/images/png/Play-station.png" alt="" />
-                <div class="arrival-bottom__text">
-                  <h3 class="arrival-bottom__h3">PlayStation 5</h3>
-                  <p class="arrival-bottom__p">
-                    Black and White version of the PS5 coming out on sale.
-                  </p>
-                  <a href="#" class="arrival-bottom__a">Shop Now</a>
-                </div>
-              </div>
 
               <div class="arrival-bottom__card bottom__card2">
                 <img src="../assets/images/png/black-woman.png" alt="" />
@@ -432,7 +681,7 @@
       </section>
 
       <section class="services container">
-        <ServicesComponent v-for="card in 3" :key="card" />
+        <ServicesComponent v-for="card in 1" :key="card" />
       </section>
     </main>
   </div>
