@@ -1,7 +1,7 @@
-
-.arrival__content{
+.arrival__content {
     margin-top: 140px;
 }
+
 .arrival-content__bottom {
     margin-top: 60px;
     display: grid;
@@ -224,6 +224,113 @@
     background-color: red;
 }
 
+//  =========  vaucher ===============
+
+.vaucher {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+
+    &__left {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        border-right: 2px solid $text1-color;
+        text-align: left;
+        padding-top: 40px;
+        #select {
+            text-align: left;
+
+            width: 90%;
+
+            font-size: 15px;
+            margin-bottom: 15px;
+        }
+
+
+        .list {
+            display: grid;
+            width: 80%;
+            gap: 16px;
+            grid-template-columns: repeat(1, 1fr);
+
+            li {
+                a {
+                    font-size: 16px;
+                    color: $dark-color;
+                }
+            }
+        }
+    }
+
+    .logo {
+        position: absolute;
+        bottom: 0;
+        left: 40%;
+        margin-bottom: 11px;
+    }
+
+    &__right {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        // gap: 38px;
+        background: $dark-color;
+        color: $primary-color;
+        position: relative;
+        margin: 40px 0 0 40px;
+        .vaucher__child {
+            .iphone {
+                display: grid;
+                width: 50%;
+                align-items: center;
+                grid-template-columns: repeat(2, 1fr);
+                margin-top: 58px;
+                margin-bottom: 20px;
+                margin-left: 65px;
+
+                img {
+                    width: 40px;
+                    height: 49px;
+                }
+
+                h3 {
+                    width: 100%;
+                    font-size: 16px;
+                    color: $primary-color;
+
+                }
+            }
+
+            .vaucher_10 {
+                width: 100%;
+
+                h1 {
+                    font-size: 48px;
+                    margin-left: 65px;
+                    margin-bottom: 20px;
+                }
+            }
+
+            li {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 8px;
+                align-items: center;
+                margin-left: 65px;
+                margin-bottom: 51px;
+
+                a {
+                    font-size: 16px;
+                    color: $primary-color;
+                    padding-bottom: 8px;
+                    border-bottom: 1px solid $text1-color;
+                    width: 80%;
+                }
+            }
+
+        }
+    }
+
+}
 
 // ========== Flash sales section ========
 
@@ -363,7 +470,7 @@
 
 }
 
- 
+
 .child2 {
 
     .Flash__child {
@@ -572,12 +679,13 @@
     grid-template-columns: repeat(auto-fit, minmax(249px, 1fr));
     margin: 140px 0;
     text-align: center;
+
     .Flash__card {
 
         &-img {
             width: 80px;
             height: 80px;
-            margin: 0 auto ;
+            margin: 0 auto;
         }
     }
 

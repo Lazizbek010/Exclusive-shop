@@ -5,15 +5,15 @@
 
       <div class="vaucher">
         <div class="vaucher__left">
-          <select id="">
-            <option value="">Woman’s Fashion</option>
-            <option value="">Men’s Fashion</option>
+          
+          <select id="select">
+            <option value=""> <a href="#">Woman’s Fashion</a> </option>
+            <option value=""> <a href="#">Men’s Fashion</a> </option>
           </select>
-          <select id="">
-            <option value="">Woman’s Fashion</option>
-            <option value="">Men’s Fashion</option>
+          <select id="select">
+            <option value=""> <a href="#">Woman’s Fashion</a> </option>
+            <option value=""> <a href="#">Men’s Fashion</a> </option>
           </select>
-
           <ul class="list">
             <li><a href="#">Electronics</a></li>
             <li><a href="#">Home & Lifestyle</a></li>
@@ -24,7 +24,25 @@
             <li><a href="#">Health & Beauty</a></li>
           </ul>
         </div>
-        <div class="vaucher__right"></div>
+        <div class="vaucher__right">
+          <div class="vaucher__child">
+            <div class="iphone">
+              <img src="../assets/images/png/gray_logo 1.png" alt="" class="iphone_logo">
+              <h3>iPhone 14 Series</h3>
+            </div>
+            <div class="vaucher_10">
+              <h1>Up to 10% off Voucher</h1>
+            </div>
+            <li>
+              <a href="#">Shop Now</a>
+              <img src="../assets/images/svg/Vector.svg" alt="">
+            </li>
+          </div>
+          <div class="vaucher__item">
+            <img src="../assets/images/png/Apple.png" alt="">
+          </div>
+          <img class="logo"  src="../assets/images/png/Frame 564.png" alt="">
+        </div>
       </div>
 
 
