@@ -80,6 +80,7 @@ const router = createRouter({
             name: 'account',
             component: AccountView,
         },
+     
 
   ]
 })
