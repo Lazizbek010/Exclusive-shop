@@ -37,19 +37,10 @@
         <li>+88015-88888-9999</li>
       </ul>
       <ul class="footer__list">
-        <li>Account</li>
-        <li>My Account</li>
-        <li>Login / Register</li>
-        <li>Cart</li>
-        <li>Wishlist</li>
-        <li>Shop</li>
+        <li v-for="item in account" :key="item.label">{{item.label}}</li>
       </ul>
       <ul class="footer__list">
-        <li>Quick Link</li>
-        <li>Privacy Policy</li>
-        <li>Terms Of Use</li>
-        <li>FAQ</li>
-        <li>Contact</li>
+        <li v-for="item in quickLink" :key="item.label">{{item.label}}</li>
       </ul>
       <div class="footer__app">
         <ul class="footer__list">
@@ -157,6 +148,7 @@
 </template>
 
 <script setup>
+import { account, quickLink } from './helpers.js'
 </script>
 
 <style lang="scss" scoped>
