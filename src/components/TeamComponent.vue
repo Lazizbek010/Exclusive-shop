@@ -1,7 +1,7 @@
 <template>
   <div class="team__item">
     <div class="team__img">
-      <img src="../assets/images/png/Tom-Curus.jpg" alt="" />
+      <img src="../assets/images/png/tomcruz.png" alt="" />
     </div>
     <h1>Tom Cruise</h1>
     <p class="pop-16-24-400">Founder & Chairman</p>

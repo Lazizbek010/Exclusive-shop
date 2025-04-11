@@ -30,7 +30,7 @@
   top: 129px;
   min-width: 225px;
   padding: 18px 12px 10px 20px;
-  background: rgba(0, 0, 0, 0.04);
+  background: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(75px);
   border-radius: 4px;
   display: flex;

@@ -14,11 +14,9 @@
 
     }
 
-
-
-
     .login__left {
         margin-left: 100px;
+
         .inp input {
             text-align: start;
             border-bottom: 1px solid;
@@ -26,7 +24,8 @@
             width: 370px;
             margin-top: 40px;
         }
-        #input__from{
+
+        #input__from {
             margin-top: 48px;
         }
 
@@ -47,12 +46,12 @@
             width: 100%;
             display: grid;
             align-items: center;
-            grid-template-columns: repeat(2, 1fr);  
+            grid-template-columns: repeat(2, 1fr);
             padding-top: 40px;
 
 
 
-            
+
 
 
 

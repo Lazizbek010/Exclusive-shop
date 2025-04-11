@@ -29,7 +29,7 @@
         <div class="nav__logo inter-24-24-700">Exclusive</div>
         <ul class="nav__list">
           <li>
-            <router-link :to="{ name: 'home' }" class="active"
+            <router-link :to="{ name: 'home' }" 
               >Home</router-link
             >
           </li>
@@ -47,7 +47,7 @@
           <div class="nav__menu-search">
             <input
               class="pop-12-18-400"
-              type="search"
+              type="text"
               name="search"
               id="search"
               placeholder="What are you looking for?"
@@ -154,4 +154,7 @@ const user = ref(true);
 </script>
 
 <style lang="scss" scoped>
+.router-link-exact-active {
+  border-bottom: 2px solid #000;
+}
 </style>

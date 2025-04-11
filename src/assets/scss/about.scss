@@ -8,13 +8,16 @@
     .story {
         position: relative;
         height: 609px;
-        .container{
+
+        .container {
             display: flex;
             align-items: center;
             height: inherit;
         }
+
         &__info {
             max-width: 525px;
+
             h1 {
                 font-family: 'Inter';
                 @include font(54, 64, 600, $dark-color);
@@ -39,9 +42,12 @@
             position: absolute;
             right: 0;
             top: 0;
-            img{
+            display: flex;
+            justify-content: flex-end;
+
+            img {
                 width: 510px;
-                height: inherit;
+                height: 100%;
             }
         }
     }
@@ -66,13 +72,13 @@
                 width: 80px;
                 height: 80px;
                 margin: 0 auto;
-                border-radius: 50%;
+                position: relative;
 
-                img {
-                    width: 80px;
-                    height: 80px;
-                    border-radius: 50%;
-
+                .icon {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
                 }
             }
 
@@ -85,17 +91,36 @@
                 background: $secondary2-color;
                 box-shadow: $shadow-color;
                 border-color: $secondary2-color;
+                cursor: pointer;
+
+                h1,
+                p {
+                    color: $primary-color;
+                }
+
+                .icon {
+                    path {
+                        stroke: #000;
+                    }
+                }
+
+                .bg {
+                    path {
+                        fill: white;
+                    }
+
+                    circle {
+                        fill: white;
+                    }
+                }
             }
 
-            &:hover h1,
-            &:hover p {
-                color: $primary-color;
-            }
         }
     }
 
     .team {
         position: relative;
+
         &__item {
             h1 {
                 font-family: 'Inter';
@@ -103,37 +128,43 @@
                 margin-bottom: 8px;
                 @include font(32, 30, 500, $dark-color)
             }
-            p{
+
+            p {
                 margin-bottom: 16px;
             }
         }
-        &__icons{
+
+        &__icons {
             display: flex;
             gap: 16px;
         }
+
         &__img {
             background: $secondary-color;
             border-radius: 4px;
             margin-bottom: 32px;
             width: 370px;
             height: 430px;
+            padding-top: 39px;
             display: flex;
             justify-content: center;
-            align-items: center;
             img {
-                width: inherit;
-                height: auto;
+                width: 236px;
+                height: 391px;
             }
         }
-        .swiper{
+
+        .swiper {
             position: initial !important;
 
         }
-        .swiper-pagination{
+
+        .swiper-pagination {
             bottom: -62px;
         }
     }
-    .services{
+
+    .services {
         margin-top: 220px;
         justify-content: center;
     }

@@ -1,7 +1,5 @@
 <template>
   <div class="home">
-    <div class="container">
-    </div>
     <main class="main-categories__parent">
       <div class="main-left__child">
         <h1>Categories</h1>

@@ -50,10 +50,6 @@
         a {
             @include font(16, 24, 400, $dark-color);
             position: relative;
-
-            &.active {
-                border-bottom: 1px solid $dark-color;
-            }
         }
     }
 

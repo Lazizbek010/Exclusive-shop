@@ -33,6 +33,9 @@
               <li class="pop-16-24-400">My Cancellations</li>
             </ul>
           </h3>
+          <h3 class="account__list-item">
+            <div class="pop-16-24-500">My WishList</div>
+          </h3>
         </div>
         <div class="account__form">
           <h3>Edit Your Profile</h3>

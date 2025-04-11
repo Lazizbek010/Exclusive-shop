@@ -141,7 +141,7 @@
 
     <div class="footer__bottom">
       <p class="pop-16-24-400-secondary-white">
-        &copy; Copyright Rimel 2022. All right reserved
+        &copy; Copyright LITECH TEAM 2025. All right reserved
       </p>
     </div>
   </div>
